@@ -9,6 +9,14 @@
 
 横版概览和原有长版成果图，以公开样张和同轮虚构输入为依据重新组织内容，并非周报或岗位观察的逐字截图；检查清单细节来自同轮构建员战报。首次试跑图对应已验证的 ZIP 路线。六张图均为可编辑的文字矢量图，旧长图和首次操作图继续保留。
 
+## Team architecture and rank progression
+
+- `team-architecture.en.svg` and `team-architecture.zh-CN.svg` explain reporting, independent review, human approval, formal recording and reconciliation. They summarize the [architecture guide](../architecture.md).
+- `rank-path.en.svg` and `rank-path.zh-CN.svg` show the ten ordinary ranks and the separate Marshal appointment. Exact points, full weeks at the current rank, acceptance requirements and seat rules are in the [rank guide](../ranks.md) and the language pack's `policy.json`.
+- Rebuild all four with `python -B docs/examples/build_explainers.py` from the repository root. The renderer reads the published policies only; it does not connect to GrokBot or change any runtime data.
+
+架构图说明谁核、谁批、谁记；军衔图展示普通阶梯和独立特授。它们是可编辑的制度解释图，不是产品界面。首页默认折叠这两组图，专页保留完整说明。
+
 ## Author contact images
 
 The two QR images are reused byte for byte from Situk's existing public project:

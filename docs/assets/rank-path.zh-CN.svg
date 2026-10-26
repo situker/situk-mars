@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">普通十级逐阶，元帅单独特授</title>
+<desc id="desc">普通军衔按顺序为列兵、上等兵、下士、中士、上士、少尉、中尉、上尉、少校、中校。适用的积分、当前军衔完整在阶周、验收要求及其他规则条件只产生候选，每次晋衔仍须另经人类批准。少校和中校另须已批准席位及人类选升；中校不设自动分数门槛。元帅独立设零至一席，仅由人类特授统筹者，不加分，不改变普通军衔与在阶起算，不产生自批权。图中称呼为管理头衔，不代表真实军事身份；完整条件仍以规则为准。</desc>
+<style>text{font-family:"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#18332e}.heading{font-weight:700}.muted{fill:#536760}.green{fill:#126650}.amber{fill:#80551a}</style>
+<defs><marker id="arrow-green" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#126650"/></marker><marker id="arrow-muted" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6a7d74"/></marker><marker id="arrow-amber" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#a07031"/></marker></defs>
+<rect width="1200" height="400" rx="20" fill="#f2f6f4"/>
+<text x="32" y="40" font-size="30" class="heading">普通十级逐阶，元帅单独特授</text>
+<text x="32" y="70" font-size="20" class="muted">适用的积分、完整在阶周、验收与其他条件 → 候选；晋衔另经人类批准。</text>
+<polyline points="240,126 264,126" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="472,126 496,126" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="704,126 728,126" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="936,126 960,126" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="240,234 264,234" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="472,234 496,234" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="704,234 728,234" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="936,234 960,234" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="1168,126 1184,126 1184,180 16,180 16,234 32,234" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<rect x="32" y="94" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="136" y="136" font-size="26" class="heading" text-anchor="middle">列兵</text>
+<rect x="264" y="94" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="368" y="136" font-size="26" class="heading" text-anchor="middle">上等兵</text>
+<rect x="496" y="94" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="600" y="136" font-size="26" class="heading" text-anchor="middle">下士</text>
+<rect x="728" y="94" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="832" y="136" font-size="26" class="heading" text-anchor="middle">中士</text>
+<rect x="960" y="94" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="1064" y="136" font-size="26" class="heading" text-anchor="middle">上士</text>
+<rect x="32" y="202" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="136" y="244" font-size="26" class="heading" text-anchor="middle">少尉</text>
+<rect x="264" y="202" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="368" y="244" font-size="26" class="heading" text-anchor="middle">中尉</text>
+<rect x="496" y="202" width="208" height="64" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="600" y="244" font-size="26" class="heading" text-anchor="middle">上尉</text>
+<rect x="728" y="202" width="208" height="64" rx="14" fill="#fff4df" stroke="#d6b77f"/>
+<text x="832" y="244" font-size="26" class="heading" text-anchor="middle">少校</text>
+<rect x="960" y="202" width="208" height="64" rx="14" fill="#fff4df" stroke="#d6b77f"/>
+<text x="1064" y="244" font-size="26" class="heading" text-anchor="middle">中校</text>
+<text x="32" y="300" font-size="20" class="amber">少校、中校另须批准席位与人类选升；中校不设自动分数门槛。</text>
+<rect x="32" y="322" width="1136" height="60" rx="14" fill="#fff4df" stroke="#d6b77f"/>
+<text x="56" y="350" font-size="26" class="heading amber">元帅特授</text>
+<text x="56" y="375" font-size="18" class="amber">与普通阶梯分开</text>
+<text x="350" y="348" font-size="20" class="amber">0–1 席 · 仅统筹者 · 人类任命</text>
+<text x="350" y="374" font-size="20" class="muted">不加分、不自批，不改变普通军衔与在阶起算。</text>
+</svg>

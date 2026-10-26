@@ -1,5 +1,14 @@
 # Changelog
 
+## Team and rank explainers — 2026-10-26
+
+- Keep one expanded exercise preview on each homepage; add folded team architecture and ordinary-rank diagrams.
+- Add bilingual rank guides with all ten ranks, five award grades, appointment boundaries and naming examples.
+- Make the introductions explain a shared fictional award, decision roles and the requirements for the next rank.
+- Add editable architecture and rank SVG sources while preserving the reviewed rules, engine and released Skill archives.
+
+首页保留紧凑主图，补上团队分工、十级普通军衔与元帅特授的中英说明和可展开图；不改变制度或运行环境。
+
 ## Compact project homepage — 2026-10-26
 
 - Give both READMEs the same compact brand header, download navigation and short trial path.

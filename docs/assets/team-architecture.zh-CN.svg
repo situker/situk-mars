@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">人类批准，独立核功，唯一正式登记</title>
+<desc id="desc">业务机器人将交付及证据报给统筹者，统筹者保留有版本的原始战报，交军务官独立核功。军务官将提案和周报交给人类负责人。奖赏与另行晋衔均由人类最终批准；统筹者是唯一正式登记者，只追加已批准变更。军务官从正式流水独立回读对账。元帅是仅授统筹者的零至一席人类特授头衔，不加分，不产生自批权。</desc>
+<style>text{font-family:"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#18332e}.heading{font-weight:700}.muted{fill:#536760}.green{fill:#126650}.amber{fill:#80551a}</style>
+<defs><marker id="arrow-green" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#126650"/></marker><marker id="arrow-muted" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6a7d74"/></marker><marker id="arrow-amber" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#a07031"/></marker></defs>
+<rect width="1200" height="520" rx="20" fill="#f2f6f4"/>
+<polyline points="490,128 490,168 204,168 204,202" fill="none" stroke="#126650" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+<polyline points="996,202 996,168 710,168 710,128" fill="none" stroke="#a07031" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<polyline points="376,260 824,260" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="204,386 204,318" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<polyline points="332,318 332,356 600,356 600,386" fill="none" stroke="#126650" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+<polyline points="764,433 792,433 792,346 996,346 996,318" fill="none" stroke="#6a7d74" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow-muted)" stroke-dasharray="7 5"/>
+<rect x="438" y="24" width="324" height="104" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="600" y="64" font-size="28" class="heading" text-anchor="middle">人类负责人</text>
+<text x="600" y="100" font-size="20" class="green" text-anchor="middle">最终批准：奖赏与另行晋衔</text>
+<rect x="32" y="202" width="344" height="116" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="56" y="240" font-size="28" class="heading">统筹者</text>
+<text x="56" y="276" font-size="22" class="green">唯一正式登记者</text>
+<text x="56" y="302" font-size="20" class="muted">归集报功 · 保留来源</text>
+<rect x="824" y="202" width="344" height="116" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="848" y="240" font-size="28" class="heading">军务官</text>
+<text x="848" y="276" font-size="22" class="green">独立核功 · 对账</text>
+<text x="848" y="302" font-size="20" class="muted">本人关联事项回避</text>
+<rect x="32" y="386" width="344" height="94" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="56" y="425" font-size="26" class="heading">业务机器人</text>
+<text x="56" y="459" font-size="20" class="muted">交付与证据 · 提交报功</text>
+<rect x="440" y="386" width="324" height="94" rx="14" fill="#ffffff" stroke="#cad8d1"/>
+<text x="602" y="425" font-size="22" class="heading" text-anchor="middle">正式流水与军衔记录</text>
+<text x="602" y="459" font-size="20" class="muted" text-anchor="middle">只保存已批准变更</text>
+<rect x="824" y="386" width="344" height="94" rx="14" fill="#fff4df" stroke="#d6b77f"/>
+<text x="848" y="414" font-size="23" class="heading amber">元帅特授 · 0–1 席</text>
+<text x="848" y="443" font-size="19" class="amber">仅统筹者 · 人类任命</text>
+<text x="848" y="469" font-size="20" class="muted">不加分 · 不产生自批权</text>
+<text x="340" y="155" font-size="20" class="green" text-anchor="middle">批准具体事项</text>
+<text x="853" y="155" font-size="20" class="amber" text-anchor="middle">提案与周报</text>
+<text x="600" y="246" font-size="20" class="muted" text-anchor="middle">保留原始战报及版本</text>
+<text x="192" y="361" font-size="20" class="muted" text-anchor="end">交付 / 报功</text>
+<text x="466" y="344" font-size="20" class="green" text-anchor="middle">登记已批准项</text>
+<text x="996" y="373" font-size="19" class="muted" text-anchor="middle">回读正式流水，独立对账</text>
+<text x="600" y="508" font-size="18" class="muted" text-anchor="middle">文档工作流 · 可选脚本只做核算，真实证据与人类批准仍须保留</text>
+</svg>

@@ -19,17 +19,17 @@ ASSETS = HERE.parent / "assets"
 
 COPY = {
     "en": {
-        "title": "One exercise, three useful documents",
+        "title": "A week of work, ready for your review",
         "scope": "6 fictional reports",
-        "records": "Merit records",
+        "records": "Weekly merit report",
         "writer": "Writer",
         "builder": "Builder",
-        "promotion": "Writer: separate rank approval",
-        "pending": "Pending review",
+        "promotion": "PFC after separate approval",
+        "pending": "Pending-review list",
         "evidence": "Adoption evidence missing",
         "unrecorded": "1 point approved, unposted",
         "outside": "Outside recorded totals",
-        "observations": "Role observations",
+        "observations": "Team-role observations",
         "checklist": "Accepted checklist",
         "reuse": "Reuse first",
         "no_creation": "No automatic role creation",
@@ -46,17 +46,17 @@ COPY = {
         ),
     },
     "zh-CN": {
-        "title": "一轮演练，三份结果",
+        "title": "一周的贡献，整理成三份结果",
         "scope": "6 条虚构战报",
-        "records": "军功记录",
+        "records": "军功周报",
         "writer": "主笔",
         "builder": "构建员",
         "promotion": "主笔另批：列兵 → 上等兵",
-        "pending": "待复核",
+        "pending": "待复核清单",
         "evidence": "缺采用凭据",
         "unrecorded": "已批未登记 · 1 分",
         "outside": "未计入正式累计",
-        "observations": "岗位观察",
+        "observations": "团队岗位观察",
         "checklist": "已验收的检查清单",
         "reuse": "先复用",
         "no_creation": "不自动建岗",
@@ -144,7 +144,7 @@ def render(language):
     content = "\n".join(parts) + "\n"
     ET.fromstring(content)
     target = ASSETS / f"overview.{language}.svg"
-    target.write_text(content, encoding="utf-8")
+    target.write_text(content, encoding="utf-8", newline="\n")
     print(target.relative_to(HERE.parent.parent))
 
 

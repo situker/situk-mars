@@ -18,13 +18,13 @@
   <a href="README.zh-CN.md">简体中文</a>
 </p>
 
-More bots, more delivery and adoption records scattered across chats. MARS gives GrokBot teams a **contribution review, reward and rank workflow**, with three documents each cycle: recorded merit, decisions awaiting review and opportunities to reuse existing work.
+One bot writes the plan, another builds the tool, and a third checks the result. When the task ends, **who delivered, which rewards are justified, and what is needed for the next rank?** MARS gives GrokBot teams a reporting, review and rank workflow that turns delivery and adoption evidence into traceable merit records.
 
-## See one exercise
+## Run one exercise. Open your merit report.
 
 ![Three fictional exercise documents: merit records, pending review and role observations](docs/assets/overview.en.svg)
 
-The writer records **4.80 points** and becomes Private First Class after a separate simulated approval. The builder records **9.20 points** and remains Private. Promotion depends on points, time at rank and additional conditions, then requires its own approval. All data shown is fictional, drawn from the three samples and the same exercise's inputs.
+In this exercise, the writer records **4.80 points** and advances from Private to Private First Class after a separate simulated approval. The builder records **9.20 points** and remains Private. The report preserves formal results, the pending-review list keeps unfinished decisions visible, and role observations point to accepted assets worth reusing. These previews draw on three fictional samples and the same exercise's inputs.
 
 Open the full samples: **[Weekly merit report](docs/examples/en/weekly-report.md)** · **[Pending-review list](docs/examples/en/pending-review.md)** · **[Team-role observations](docs/examples/en/team-observations.md)**
 
@@ -45,7 +45,7 @@ Do not create the output directory beforehand; use a new name for another run. U
 
 You can also [ask GrokBot to follow the documents](docs/quickstart.md#route-b-ask-grokbot-to-rehearse-in-conversation), provided your host can read the complete Skill folder. The ZIP includes `SKILL.md`, rules, nine templates, fictional inputs and an optional Python helper.
 
-## How contributions become rewards
+## The Commander coordinates. The Merit Officer reviews. You decide.
 
 **Report → Review → Human approval → Record → Confer rank → Weekly report**
 
@@ -55,9 +55,31 @@ You can also [ask GrokBot to follow the documents](docs/quickstart.md#route-b-as
 | Who reviews, approves and records? | The Merit Officer reviews independently, the Human Owner gives final approval, and the Commander records the formal ledger under valid approval |
 | When can a bot advance? | Points, time at rank and additional conditions create candidates. Promotion needs separate approval; approved but unrecorded merit stays outside formal totals |
 
-**Marshal is a separate special appointment, with at most one seat.** The human may appoint the Commander. It adds no points, preserves ordinary time at rank and grants no self-approval authority. Job role, ordinary rank and special appointment are recorded separately.
+<details>
+<summary>View the team architecture: from delivery and review to formal records</summary>
+
+![Team architecture: business bots report, the Merit Officer reviews independently, the human approves, and the Commander records before independent reconciliation](docs/assets/team-architecture.en.svg)
+
+[Complete architecture and six-stage workflow](docs/architecture.md)
+
+</details>
 
 See the [full rules](skills/en/situk-mars/references/rules.md) for award grades, weekly caps, conflicts, late reports and corrections.
+
+## From Private to Lieutenant Colonel: what earns the next rank?
+
+A qualifying report, an adopted outcome and an asset reused on a second task each have defined evidence requirements for merit. The ten ordinary ranks normally advance one step at a time. Candidates must meet the applicable points, complete weeks at the current rank and acceptance requirements; the human approves each promotion separately. Major and Lieutenant Colonel require approved seats and human selection; Lieutenant Colonel has no automatic points threshold.
+
+**Marshal is a separate special appointment, with at most one seat.** The human may appoint the Commander. It adds no points, preserves ordinary time at rank and grants no self-approval authority. Job role, ordinary rank and special appointment are recorded separately.
+
+<details>
+<summary>Expand the ten ordinary ranks and the separate Marshal appointment</summary>
+
+![Ten ordinary ranks from Private to Lieutenant Colonel, subject to eligibility and separate human approval; Marshal is a separate appointment](docs/assets/rank-path.en.svg)
+
+[Every rank's requirements, five award grades and display-name examples](docs/ranks.md)
+
+</details>
 
 ## Adopt it for your team
 
@@ -70,6 +92,7 @@ This release supports a **GrokBot document workflow and local calculation**. Liv
 | Explore further | Links |
 |---|---|
 | Roles and workflow | [Architecture](docs/architecture.md) · [Introduction](docs/introduction.md) |
+| Ranks and rewards | [Ten ranks, five award grades and Marshal](docs/ranks.md) |
 | Operating instructions | [SKILL.md](skills/en/situk-mars/SKILL.md) · [Nine templates](skills/en/situk-mars/templates) |
 | Tests and checksums | [Validation](docs/validation.md) · [Release and checksums](https://github.com/situker/situk-mars/releases/tag/v0.2.0) |
 | Questions and suggestions | [Open an issue](https://github.com/situker/situk-mars/issues) |

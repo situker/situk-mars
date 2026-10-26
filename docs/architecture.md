@@ -1,8 +1,30 @@
-# Architecture
+# Team architecture
 
-situk-MARS is a merit and military rank reward Skill for GrokBot teams. The architecture separates claims, independent review, human decisions and formal records. The current integration is a document workflow; the Python helper applies deterministic rules to supplied data.
+**The Commander coordinates. The Merit Officer reviews independently. The Human Owner decides rewards.**
 
-## Roles and records
+A finished article, a reusable asset and an accepted task follow the same record trail: who delivered what, which evidence supports it, who approved the award and whether it reached the formal ledger. situk-MARS gives GrokBot teams that trail for merit and military rank rewards.
+
+![situk-MARS team architecture: human decisions, Commander coordination and independent merit review, with ordinary ranks and the Marshal appointment recorded separately](assets/team-architecture.en.svg)
+
+- **Commander**: coordinates the team, collects reports, preserves original material and is the sole recorder of changes explicitly approved by the human.
+- **Merit Officer**: independently examines delivery and adoption evidence, duplicates, shared awards and weekly caps; reconciles the records afterward and prepares weekly reports.
+- **Human Owner**: adopts the rules, sets business goals and approves exact merit awards, promotions and special appointments. Bots cannot approve on the human's behalf.
+
+Business bots continue their assigned work. A merit report identifies the delivered version, acceptance criteria and adoption evidence. Cases involving the reviewer, or both governance roles, go to the human or a previously designated independent reviewer; final approval remains with the human.
+
+## Job role, ordinary rank and special appointment
+
+| Dimension | What it describes | How it is assigned |
+|---|---|---|
+| Job role | Responsibility, such as coordination, review, writing or development | The human assigns or confirms the duties |
+| Ordinary rank | Approved progression through ten ranks, from Private to Lieutenant Colonel | Applicable points, complete weeks in rank, deliverables and seat conditions create a candidate; promotion is separately approved |
+| Marshal appointment | The holder of the single special command title | The human appoints zero or one holder; ordinary rank and its start date remain intact |
+
+The human may appoint the Commander as Marshal. Appointment adds no points, skips no ordinary ranks and grants neither self-approval nor extra permissions. A writer or developer keeps the same job responsibilities as their rank progresses.
+
+## Documents, rules and calculation
+
+The current GrokBot integration uses a document workflow, preserving reports, reviews, decisions and ledger entries separately. An optional Python helper calculates supplied data under the fixed policy for the Merit Officer to review.
 
 ```mermaid
 flowchart TB
@@ -37,9 +59,13 @@ flowchart TB
     W --> H
 ```
 
-The Commander is a job role. **Marshal** is a separate special appointment with zero or one holder; it adds no points, leaves the ordinary rank history intact and grants no self-approval. The Merit Officer does not write the formal ledger. Conflicts involving the reviewer, or both governance roles, go to the Human Owner or a previously designated independent reviewer, with final approval still reserved for the owner.
+The Merit Officer writes independent review, reconciliation and weekly-report drafts, not the formal ledger. Even when recording their own approved award, the Commander needs an explicit human decision followed by reconciliation by an unconflicted reviewer.
 
 ## One complete award cycle
+
+**Report → Review → Approve → Record → Award rank → Weekly report**
+
+A report points to an actual delivery. Review checks the required evidence. Approval binds the exact version. Registration produces reconstructible ledger entries. Rank awards require a candidate and a separate human decision. The weekly report brings recorded changes and outstanding matters back to the owner.
 
 ```mermaid
 sequenceDiagram
@@ -63,7 +89,7 @@ sequenceDiagram
     Note over B,L: Synthetic exercises use simulated approvals; they do not authorize real actions.
 ```
 
-These stages keep reporting, review, decisions and records separate. Missing evidence stops a proposal; an open week permits preview only. A score or completed time in rank creates a candidate. It does not award the next rank without a separate human decision.
+Missing evidence required for the requested award stays in the evidence queue; an open week permits preview only. Meeting applicable points, complete weeks in rank and other conditions creates a promotion candidate, followed by a separate human decision. Weekly reports distinguish self-reported, reviewed, approved and recorded items. Approved but unrecorded points do not enter the formal total.
 
 ## Data responsibilities
 
