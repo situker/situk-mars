@@ -1,0 +1,154 @@
+[
+  {
+    "report_id": "synthetic-report-writer-01",
+    "event_id": "synthetic-event-writer-01",
+    "task_id": "synthetic-task-writer-01",
+    "author_bot_id": "demo_writer",
+    "qualified_at": "2026-10-20T10:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/customer-guide-01",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: the guide covers three agreed steps and is accepted by a simulated reviewer.",
+    "acceptance_ref": "synthetic://acceptance/customer-guide-01",
+    "qualified": true,
+    "adopted": true,
+    "adoption_ref": "synthetic://adoption/customer-guide-01",
+    "goal_link": "direct",
+    "goal_evidence_ref": "synthetic://goal-chain/guide-used-in-demo-delivery",
+    "requested_grade": "third",
+    "participants": [
+      {
+        "bot_id": "demo_writer",
+        "share_pct": "100"
+      }
+    ],
+    "source_note": "Entirely fictional. Not a real delivery, customer adoption or human approval."
+  },
+  {
+    "report_id": "synthetic-report-builder-01",
+    "event_id": "synthetic-event-builder-01",
+    "task_id": "synthetic-task-builder-asset-01",
+    "author_bot_id": "demo_builder",
+    "qualified_at": "2026-10-21T11:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/reusable-checklist-01",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: the reusable checklist has explicit inputs, checks and completion criteria and is accepted in a second independent task.",
+    "acceptance_ref": "synthetic://acceptance/reusable-checklist-01",
+    "qualified": true,
+    "adopted": true,
+    "adoption_ref": "synthetic://adoption/reusable-checklist-01",
+    "goal_link": "no",
+    "goal_evidence_ref": "",
+    "requested_grade": "second",
+    "participants": [
+      {
+        "bot_id": "demo_builder",
+        "share_pct": "100"
+      }
+    ],
+    "asset_id": "synthetic-asset-checklist-01",
+    "reuse_task_id": "synthetic-task-builder-reuse-02",
+    "reuse_ref": "synthetic://reuse/independent-task-02-checklist-v1-accepted",
+    "reuse_acceptance_ref": "synthetic://reuse-acceptance/independent-task-02",
+    "source_note": "Entirely fictional. The second independent task and its acceptance evidence are also fictional."
+  },
+  {
+    "report_id": "synthetic-report-collaboration-01",
+    "event_id": "synthetic-event-collaboration-01",
+    "task_id": "synthetic-task-collaboration-01",
+    "author_bot_id": "demo_writer",
+    "qualified_at": "2026-10-22T14:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/shared-onboarding-guide-01",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: the writer delivers the instructions and the builder delivers an independent checklist; both parts are adopted as one result.",
+    "acceptance_ref": "synthetic://acceptance/shared-onboarding-guide-01",
+    "qualified": true,
+    "adopted": true,
+    "adoption_ref": "synthetic://adoption/shared-onboarding-guide-01",
+    "goal_link": "indirect",
+    "goal_evidence_ref": "synthetic://goal-chain/onboarding-supports-demo-delivery",
+    "requested_grade": "third",
+    "participants": [
+      {
+        "bot_id": "demo_writer",
+        "share_pct": "60"
+      },
+      {
+        "bot_id": "demo_builder",
+        "share_pct": "40"
+      }
+    ],
+    "source_note": "Entirely fictional. One 3-point pool is split into 1.80 for the writer and 1.20 for the builder, not 3 points each."
+  },
+  {
+    "report_id": "synthetic-report-writer-cap-01",
+    "event_id": "synthetic-event-writer-cap-01",
+    "task_id": "synthetic-task-writer-cap-01",
+    "author_bot_id": "demo_writer",
+    "qualified_at": "2026-10-25T16:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/followup-guide-03",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: an independent follow-up guide passes simulated acceptance; it is the writer's third same-grade request this week, testing the cap.",
+    "acceptance_ref": "synthetic://acceptance/followup-guide-03",
+    "qualified": true,
+    "adopted": true,
+    "adoption_ref": "synthetic://adoption/followup-guide-03",
+    "goal_link": "direct",
+    "goal_evidence_ref": "synthetic://goal-chain/followup-used-in-demo-delivery",
+    "requested_grade": "third",
+    "participants": [
+      {
+        "bot_id": "demo_writer",
+        "share_pct": "100"
+      }
+    ],
+    "source_note": "Entirely fictional. After the first three events are recorded, this item has nominal 3.00 and actual 0.00: no transfer, downgrade or carry-forward."
+  },
+  {
+    "report_id": "synthetic-report-missing-adoption-01",
+    "event_id": "synthetic-event-missing-adoption-01",
+    "task_id": "synthetic-task-missing-adoption-01",
+    "author_bot_id": "demo_builder",
+    "qualified_at": "2026-10-24T09:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/unconfirmed-summary-01",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: the summary passes structure and fact checks, but no traceable adoption confirmation is supplied.",
+    "acceptance_ref": "synthetic://acceptance/unconfirmed-summary-01",
+    "qualified": true,
+    "adopted": true,
+    "adoption_ref": "",
+    "goal_link": "indirect",
+    "goal_evidence_ref": "synthetic://goal-chain/unconfirmed-summary-01",
+    "requested_grade": "third",
+    "participants": [
+      {
+        "bot_id": "demo_builder",
+        "share_pct": "100"
+      }
+    ],
+    "source_note": "Entirely fictional. Adoption is claimed without a reference; expected NEEDS_EVIDENCE, no recorded merit."
+  },
+  {
+    "report_id": "synthetic-report-officer-self-01",
+    "event_id": "synthetic-event-officer-self-01",
+    "task_id": "synthetic-task-officer-self-01",
+    "author_bot_id": "demo_officer",
+    "qualified_at": "2026-10-23T15:00:00+08:00",
+    "delivery_ref": "synthetic://deliveries/review-checklist-clarification-01",
+    "delivery_version": "v1",
+    "acceptance_criteria": "Fictional exercise: the Merit Officer independently delivers review guidance that passes simulated acceptance; review volume does not earn points by itself.",
+    "acceptance_ref": "synthetic://acceptance/review-checklist-clarification-01",
+    "qualified": true,
+    "adopted": false,
+    "adoption_ref": "",
+    "goal_link": "no",
+    "goal_evidence_ref": "",
+    "requested_grade": "commendation",
+    "participants": [
+      {
+        "bot_id": "demo_officer",
+        "share_pct": "100"
+      }
+    ],
+    "source_note": "Entirely fictional. A Commendation may be unadopted, but the officer cannot review their own event: expected CONFLICT_TO_OWNER, then simulated human review."
+  }
+]

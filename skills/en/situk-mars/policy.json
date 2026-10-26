@@ -1,0 +1,95 @@
+{
+  "rule_version": "0.2.0",
+  "timezone": "Asia/Singapore",
+  "grade_points": {
+    "commendation": 1,
+    "third": 3,
+    "second": 8,
+    "first": 20,
+    "honor": 50
+  },
+  "weekly_caps": {
+    "commendation": 2,
+    "third": 2,
+    "second": 1,
+    "first": 1
+  },
+  "rank_order": [
+    "列兵",
+    "上等兵",
+    "下士",
+    "中士",
+    "上士",
+    "少尉",
+    "中尉",
+    "上尉",
+    "少校",
+    "中校"
+  ],
+  "rank_thresholds": {
+    "上等兵": {
+      "weeks": 1,
+      "points": 2
+    },
+    "下士": {
+      "weeks": 2,
+      "points": 5
+    },
+    "中士": {
+      "weeks": 3,
+      "points": 10
+    },
+    "上士": {
+      "weeks": 4,
+      "points": 16
+    },
+    "少尉": {
+      "weeks": 6,
+      "points": 28
+    },
+    "中尉": {
+      "weeks": 8,
+      "points": 45
+    },
+    "上尉": {
+      "weeks": 10,
+      "points": 70
+    },
+    "少校": {
+      "weeks": 12,
+      "points": 100
+    },
+    "中校": {
+      "weeks": null,
+      "points": null
+    }
+  },
+  "promotion_notes": {
+    "all": "Points and full weeks at rank produce next-rank candidates only. Require accepted deliverables relevant to the next rank and human-approved next-rank acceptance requirements. Normally advance one rank; each promotion requires separate human approval.",
+    "上等兵": "At least one qualifying contribution report.",
+    "下士": "No unresolved, confirmed serious violation; suspicion is not a confirmed violation.",
+    "中士": "Qualifying delivery in each of the last two closed cycles.",
+    "上士": "At least one qualifying Third-Class Merit or Second-Class Merit asset award. Grade prerequisites count only solo awards, or lead participation with nominal share at least 60% and positive posted points.",
+    "少尉": "At least one qualifying Second-Class Merit or two qualifying Third-Class Merits, subject to the same grade-prerequisite counting rule.",
+    "中尉": "Expanded responsibilities confirmed by the human.",
+    "上尉": "At least one qualifying First-Class Merit or two independent qualifying reused assets; a parent asset and its derivatives count as one.",
+    "少校": "Approved vacant seat and human selection; unconfigured seats do not imply vacancies.",
+    "中校": "Approved seat and human selection only, without automatic point-based promotion.",
+    "exception": "A First-Class Merit exception allowing one rank early is limited to once per bot per calendar quarter. Honor-based exceptions require separate approval and available seats. The v0.2.0 scripts produce manual proposals only and do not execute exceptions.",
+    "special_rank": "Marshal is a human-appointed special rank with zero to one seat, recorded separately from the Commander role. It grants no points, does not change ordinary rank or time-at-rank start, and creates no self-approval authority."
+  },
+  "seat_limit": 1,
+  "rank_labels": {
+    "列兵": "Private",
+    "上等兵": "Private First Class",
+    "下士": "Corporal",
+    "中士": "Sergeant",
+    "上士": "Staff Sergeant",
+    "少尉": "Second Lieutenant",
+    "中尉": "First Lieutenant",
+    "上尉": "Captain",
+    "少校": "Major",
+    "中校": "Lieutenant Colonel",
+    "元帅": "Marshal"
+  }
+}

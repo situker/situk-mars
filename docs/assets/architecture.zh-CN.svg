@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1215" viewBox="0 0 1440 1215" role="img" aria-labelledby="title desc">
+<title id="title">situk-MARS｜军衔制机器人组织系统</title><desc id="desc">报功、独立核功、人类批准、正式记功、单独授衔和周报；元帅为独立特授任命。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6c7e96"/></marker></defs>
+<rect width="1440" height="1215" fill="#f5f7fb"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">
+<text x="80" y="71" font-size="34" font-weight="700" fill="#142b47" text-anchor="start">situk-MARS｜军衔制机器人组织系统</text>
+<text x="80" y="107" font-size="20" font-weight="400" fill="#566b85" text-anchor="start">v0.2.0 · 文档工作流 · 最终批准在人类</text>
+<rect x="460" y="145" width="520" height="106" rx="18" fill="#153757" stroke="#153757" stroke-width="1.5"/>
+<text x="720" y="184" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">人类负责人</text>
+<text x="720" y="220" font-size="19" font-weight="400" fill="#e0eafb" text-anchor="middle">确定范围与规则，批准具体事项和版本</text>
+<path d="M 580 251 V 281 H 380 V 315" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1060 315 V 281 H 860 V 251" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="380" y="272" font-size="17" font-weight="600" fill="#566b85" text-anchor="middle">确切批准</text>
+<text x="1060" y="272" font-size="17" font-weight="600" fill="#566b85" text-anchor="middle">提案与关联事项</text>
+<rect x="80" y="315" width="600" height="142" rx="18" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<rect x="760" y="315" width="600" height="142" rx="18" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<text x="110" y="356" font-size="25" font-weight="700" fill="#153757" text-anchor="start">统筹岗位 Commander</text>
+<text x="110" y="394" font-size="19" font-weight="400" fill="#24364d" text-anchor="start">归集报功，保留原始版本</text>
+<text x="110" y="424" font-size="19" font-weight="400" fill="#24364d" text-anchor="start">核对批准后，唯一正式登记；军衔另经批准</text>
+<text x="790" y="356" font-size="25" font-weight="700" fill="#153757" text-anchor="start">军务官 Merit Officer</text>
+<text x="790" y="394" font-size="19" font-weight="400" fill="#24364d" text-anchor="start">独立核功、原周核帽、读后对账、整理周报</text>
+<text x="790" y="424" font-size="19" font-weight="400" fill="#24364d" text-anchor="start">本人或双方关联事项上交人类；不写正式账</text>
+<rect x="80" y="510" width="1280" height="82" rx="18" fill="#e9f1fb" stroke="#bfd3ec" stroke-width="1.5"/>
+<text x="110" y="544" font-size="22" font-weight="700" fill="#153757" text-anchor="start">业务机器人</text>
+<text x="110" y="576" font-size="19" font-weight="400" fill="#24364d" text-anchor="start">交付成果与证据，提交原始报功；军衔与岗位分开记录</text>
+<path d="M 179 592 V 680" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="720" y="644" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">一轮完整办理流程</text>
+<rect x="80" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<circle cx="105" cy="708" r="12" fill="#153757"/>
+<text x="105" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="179" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">报功</text>
+<text x="179" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">业务机器人</text>
+<text x="179" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">交付与证据</text>
+<path d="M 278 748 H 294" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="296" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<circle cx="321" cy="708" r="12" fill="#153757"/>
+<text x="321" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="395" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">核功</text>
+<text x="395" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">军务官</text>
+<text x="395" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">证据、份额、周帽</text>
+<path d="M 494 748 H 510" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="512" y="680" width="198" height="136" rx="14" fill="#fff0d8" stroke="#e5b65d" stroke-width="1.5"/>
+<circle cx="537" cy="708" r="12" fill="#153757"/>
+<text x="537" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="611" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">批准</text>
+<text x="611" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">人类负责人</text>
+<text x="611" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">明确事项与版本</text>
+<path d="M 710 748 H 726" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="728" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<circle cx="753" cy="708" r="12" fill="#153757"/>
+<text x="753" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="827" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">记功</text>
+<text x="827" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">统筹岗位</text>
+<text x="827" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">一次登记，再对账</text>
+<path d="M 926 748 H 942" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="944" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<circle cx="969" cy="708" r="12" fill="#153757"/>
+<text x="969" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1043" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">授衔</text>
+<text x="1043" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">人类另批</text>
+<text x="1043" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">候选不等于晋衔</text>
+<path d="M 1142 748 H 1158" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1160" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
+<circle cx="1185" cy="708" r="12" fill="#153757"/>
+<text x="1185" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="1259" y="746" font-size="23" font-weight="700" fill="#153757" text-anchor="middle">周报</text>
+<text x="1259" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">军务官</text>
+<text x="1259" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">已记与待办分列</text>
+<text x="720" y="850" font-size="18" font-weight="400" fill="#566b85" text-anchor="middle">缺证留待核；超周帽实记 0；分数和在阶周数只产生候选</text>
+<rect x="80" y="890" width="1280" height="134" rx="18" fill="#edf2f8" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="110" y="924" font-size="22" font-weight="700" fill="#153757" text-anchor="start">客户明确授权的运行文档</text>
+<rect x="110" y="947" width="230" height="50" rx="10" fill="#ffffff" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="225" y="978" font-size="18" font-weight="600" fill="#365574" text-anchor="middle">花名册</text>
+<rect x="360" y="947" width="230" height="50" rx="10" fill="#ffffff" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="475" y="978" font-size="18" font-weight="600" fill="#365574" text-anchor="middle">战报与复核</text>
+<rect x="610" y="947" width="230" height="50" rx="10" fill="#ffffff" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="725" y="978" font-size="18" font-weight="600" fill="#365574" text-anchor="middle">人类批准记录</text>
+<rect x="860" y="947" width="230" height="50" rx="10" fill="#ffffff" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="975" y="978" font-size="18" font-weight="600" fill="#365574" text-anchor="middle">流水与军衔记录</text>
+<rect x="1110" y="947" width="230" height="50" rx="10" fill="#ffffff" stroke="#d3deeb" stroke-width="1.5"/>
+<text x="1225" y="978" font-size="18" font-weight="600" fill="#365574" text-anchor="middle">周报与待办</text>
+<text x="80" y="1065" font-size="21" font-weight="700" fill="#153757" text-anchor="start">特授元帅：独立任命，0～1 席；不赠分、不重置普通军衔、不自批。</text>
+<text x="80" y="1107" font-size="18" font-weight="400" fill="#566b85" text-anchor="start">可选 Python 只做核算与一致性检查，不能认证真人批准或证据真实性。</text>
+<text x="80" y="1138" font-size="18" font-weight="400" fill="#566b85" text-anchor="start">规则和模板可移植；本版不创建机器人、不改平台名字、不配置 routine。</text>
+</g></svg>

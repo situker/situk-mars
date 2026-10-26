@@ -1,0 +1,34 @@
+name: Validate bilingual Skills
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate shared policy and distribution
+        run: python -B tools/validate_release.py
+      - name: Chinese rule regression tests
+        run: python -B -m unittest discover -s skills/zh-CN/situk-mars/tests -p test_merit_engine.py -v
+      - name: English rule regression tests
+        run: python -B -m unittest discover -s skills/en/situk-mars/tests -p test_merit_engine.py -v
+      - name: Chinese synthetic exercise
+        run: python -B skills/zh-CN/situk-mars/scripts/simulate.py --output .local/ci-zh
+      - name: English synthetic exercise
+        run: python -B skills/en/situk-mars/scripts/simulate.py --output .local/ci-en

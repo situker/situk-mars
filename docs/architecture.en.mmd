@@ -1,0 +1,30 @@
+flowchart TB
+    H["Human Owner<br/>Goals, rules and final approval"]
+    C["Commander<br/>Collect claims; sole formal recorder"]
+    O["Merit Officer<br/>Review, reconcile and report"]
+    B["Business bots<br/>Deliver work and submit claims"]
+    P["Versioned Skill rules<br/>policy.json and templates"]
+    E["Optional local Python helper<br/>Calculation and consistency checks"]
+    subgraph D["Authorized runtime documents"]
+        R["Roster"]
+        V["Reports and independent reviews"]
+        A["Exact human decisions"]
+        L["Merit ledger and rank records"]
+        W["Weekly report and pending queue"]
+    end
+    H -->|"Adopt rules and define scope"| P
+    B -->|"Deliverables and evidence"| C
+    C -->|"Preserve original claims"| V
+    V --> O
+    O -->|"Proposal or conflict requiring human review"| H
+    H -->|"Approve exact items and versions"| A
+    A --> C
+    C -->|"Append approved changes only"| L
+    L -->|"Independent reconciliation"| O
+    R --> C
+    R --> O
+    P --> E
+    V --> E
+    E -->|"Proposed amounts and consistency results"| O
+    O --> W
+    W --> H
