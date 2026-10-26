@@ -49,37 +49,31 @@ You can also [ask GrokBot to follow the documents](docs/quickstart.md#route-b-as
 
 **Report → Review → Human approval → Record → Confer rank → Weekly report**
 
-| Your question | How MARS handles it |
-|---|---|
-| Who delivered what? | Business bots submit deliverables, acceptance records and adoption evidence. One outcome has one point pool, shared by contribution |
-| Who reviews, approves and records? | The Merit Officer reviews independently, the Human Owner gives final approval, and the Commander records the formal ledger under valid approval |
-| When can a bot advance? | Points, time at rank and additional conditions create candidates. Promotion needs separate approval; approved but unrecorded merit stays outside formal totals |
-
-<details>
-<summary>View the team architecture: from delivery and review to formal records</summary>
-
 ![Team architecture: business bots report, the Merit Officer reviews independently, the human approves, and the Commander records before independent reconciliation](docs/assets/team-architecture.en.svg)
 
-[Complete architecture and six-stage workflow](docs/architecture.md)
-
-</details>
-
-See the [full rules](skills/en/situk-mars/references/rules.md) for award grades, weekly caps, conflicts, late reports and corrections.
+Business bots deliver work and report their contributions. The Commander collects the original material; the Merit Officer reviews independently. After the human approves exact items, the Commander records them and the Merit Officer reads back to reconcile. [Complete architecture and six-stage workflow](docs/architecture.md).
 
 ## From Private to Lieutenant Colonel: what earns the next rank?
+
+![Ten ordinary ranks from Private to Lieutenant Colonel, subject to eligibility and separate human approval; Marshal is a separate appointment](docs/assets/rank-path.en.svg)
 
 A qualifying report, an adopted outcome and an asset reused on a second task each have defined evidence requirements for merit. The ten ordinary ranks normally advance one step at a time. Candidates must meet the applicable points, complete weeks at the current rank and acceptance requirements; the human approves each promotion separately. Major and Lieutenant Colonel require approved seats and human selection; Lieutenant Colonel has no automatic points threshold.
 
 **Marshal is a separate special appointment, with at most one seat.** The human may appoint the Commander. It adds no points, preserves ordinary time at rank and grants no self-approval authority. Job role, ordinary rank and special appointment are recorded separately.
 
-<details>
-<summary>Expand the ten ordinary ranks and the separate Marshal appointment</summary>
+[Every rank's requirements and display-name examples](docs/ranks.md).
 
-![Ten ordinary ranks from Private to Lieutenant Colonel, subject to eligibility and separate human approval; Marshal is a separate appointment](docs/assets/rank-path.en.svg)
+## Five merit grades, with evidence for each
 
-[Every rank's requirements, five award grades and display-name examples](docs/ranks.md)
+| Merit grade | Event pool | What is reviewed |
+|---|---:|---|
+| Commendation | 1 | Independent qualifying delivery, complete report and no confirmed event violation; adoption may be false or unknown |
+| Third-Class Merit | 3 | Adopted, business goal configured, and verified direct or indirect delivery-to-goal chain |
+| Second-Class Merit | 8 | Adopted stable asset with an ID and version, reused and accepted in a second independent task |
+| First-Class Merit | 20 | Adopted, human-confirmed major threshold set in advance, before-and-after results, supporting evidence and independent unconflicted verification |
+| Honorary Title | 50, or title only | Human initiated, with confirmed outcomes and impact across at least two distinct quarters; 50 points only for independent new outcomes |
 
-</details>
+One outcome receives only its highest qualifying pool. Collaborators share that pool, subject to each person's same-grade cap in the original week. **Previously rewarded work receives the honorary title only, without another 50 points.** Formal points require explicit human approval and recording; approved but unrecorded items stay outside totals. [Full evidence requirements, weekly caps and correction rules](skills/en/situk-mars/references/rules.md).
 
 ## Adopt it for your team
 

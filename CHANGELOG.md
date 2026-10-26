@@ -1,5 +1,13 @@
 # Changelog
 
+## System overview on the homepage — 2026-10-26
+
+- Display the team architecture and rank progression directly in both READMEs.
+- Add a five-grade merit table with event pools, evidence summaries and the title-only rule for previously rewarded work.
+- Remove the repeated role summary table while keeping downloads and the three-step exercise ahead of the system overview.
+
+中英首页直接展示架构、军衔与五档奖赏；下载和三步试跑继续前置，完整细则留在专页。
+
 ## Team and rank explainers — 2026-10-26
 
 - Keep one expanded exercise preview on each homepage; add folded team architecture and ordinary-rank diagrams.

@@ -15,7 +15,7 @@
 - `rank-path.en.svg` and `rank-path.zh-CN.svg` show the ten ordinary ranks and the separate Marshal appointment. Exact points, full weeks at the current rank, acceptance requirements and seat rules are in the [rank guide](../ranks.md) and the language pack's `policy.json`.
 - Rebuild all four with `python -B docs/examples/build_explainers.py` from the repository root. The renderer reads the published policies only; it does not connect to GrokBot or change any runtime data.
 
-架构图说明谁核、谁批、谁记；军衔图展示普通阶梯和独立特授。它们是可编辑的制度解释图，不是产品界面。首页默认折叠这两组图，专页保留完整说明。
+架构图说明谁核、谁批、谁记；军衔图展示普通阶梯和独立特授。它们是可编辑的制度解释图，不是产品界面。首页直接展示这两组图，专页保留完整说明。
 
 ## Author contact images
 
