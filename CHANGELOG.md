@@ -1,5 +1,14 @@
 # Changelog
 
+## Documentation update — 2026-10-26
+
+- Clarify the product introduction, role names and six-stage instructions in both languages.
+- Add the author's current introduction, website, X and WeChat channels, using the existing public QR originals.
+- Explain who prepares each template, when to use it and where it goes next.
+- Keep the reviewed 0.2.0 policy, calculator, machine fields and released archives unchanged.
+
+补齐最新作者介绍与公开二维码，重写中英首页、项目介绍和使用文案；统筹岗位与元帅特授分别说明。计分规则、核算脚本及已发行压缩包沿用原版。
+
 ## 0.2.0 — 2026-10-26
 
 First public release of **situk-MARS — Situk Merit-based Agent Rank System**.

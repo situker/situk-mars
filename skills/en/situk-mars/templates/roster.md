@@ -1,6 +1,12 @@
-# Bot roster
+# Bot Roster
 
-Start this register from a blank template. Store stable identity, post, ordinary rank, special-rank seat and actual platform permissions separately. Do not infer an awarded rank from an existing display name or reset an uncertain historical record to Private.
+**Prepared by:** Commander, using human-approved enrollment and baseline records.
+
+**When:** The organization adopts the system, enrolls a bot, or records an approved roster change.
+
+**Hand-off:** Give the roster and its source records to the Human Owner for confirmation and the Merit Officer for read-only checks.
+
+Start this register from a blank template. Store stable identity, job role, ordinary rank, special-rank seat and actual platform permissions in separate fields. Do not infer an awarded rank from an existing display name or reset an uncertain historical record to Private.
 
 - `organization_id`: <stable organization ID>
 - `rule_version`: <rule version>
@@ -32,9 +38,9 @@ Start this register from a blank template. Store stable identity, post, ordinary
 | `name_sync_key` | <bot_id + rank_decision_id + display-name> |
 | `name_readback_ref` / `observed_at` | <actual name readback evidence / time> |
 
-At most one bot in an organization may hold the special Marshal seat, which may be vacant. It adds no points, does not restart ordinary-rank tenure and grants no permissions. A post called “Marshal” is not an appointment; the Merit Officer post does not determine its holder's ordinary rank either.
+At most one bot in an organization may hold the special Marshal seat, which may be vacant. It adds no points, does not restart ordinary-rank tenure and grants no permissions. A job role named “Marshal” does not establish a special appointment. The Merit Officer role does not determine its holder's ordinary rank either.
 
-Generate the display name from `base_name` and the latest valid rank. Do not repeatedly append suffixes to the existing name. Icons are for award boards only, consistently written “🏅 Tier text”; mark proposed awards “proposed/pending approval.” Local simulation generates target names only and leaves actual names at their synthetic observed values. Do not rename a real bot without approval, capability and current authorization for that action.
+Generate the display name from `base_name` and the latest valid rank. Do not repeatedly append suffixes to the existing name. Use icons only on award boards, as “🏅 Tier text” and label proposed awards “proposed/pending approval.” Local simulation generates target names only and leaves actual names at their synthetic observed values. Do not rename a real bot without approval, capability and current authorization for that action.
 
 Enrollment attachments: duty scope, deliveries and acceptance criteria, merit epoch, initial ordinary rank and approval references. Count complete weeks only after the ordinary rank becomes effective; exclude partial weeks and any week touched by suspension. Do not penalize a bot for having no task or report.
 

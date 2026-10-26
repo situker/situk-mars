@@ -1,6 +1,12 @@
-# Itemized human approval
+# Itemized Human Approval
 
-Status: `DRAFT_FOR_HUMAN`. Change to `HUMAN_APPROVED` only after an explicit, verifiable human approval. An AI-generated form, a human name entered in it, or a summary of a decision is not actual approval.
+**Prepared by:** An authorized drafter; only the Human Owner can give final approval.
+
+**When:** The exact review and itemized proposal are ready for a human decision.
+
+**Hand-off:** Send valid approved items and their original approval records to the Commander for formal ledger recording.
+
+Status: `DRAFT_FOR_HUMAN`. Change to `HUMAN_APPROVED` only after explicit, verifiable human approval. Keep the original human record: an AI-generated form, a typed human name, or a decision summary does not establish approval.
 
 - `decision_id`: <stable unique ID>
 - `board_version` / `rule_version`: <exact versions>
@@ -19,8 +25,8 @@ Status: `DRAFT_FOR_HUMAN`. Change to `HUMAN_APPROVED` only after an explicit, ve
 
 For merit awards, attach every participant, percentage, nominal share, weekly cap and actual amount to record. Approval of a complete board must explicitly cover these details. For promotion, attach the current rank, target rank, next-rank duty acceptance and seat conditions. For a Marshal appointment, attach the unique seat, retained ordinary rank and appointment/removal chronology.
 
-Before recording, verify that the original approval is genuinely human, its hash matches the pending content, it has not expired, the rule and scope match, stable IDs are unique, and the formal ledger's pre-write version is unchanged. Stop the affected item if its content changes, a field is missing, evidence changes or approval cannot be located. The Commander cannot interpret missing approval into existence. Silence, “received” or “looks good” does not approve a specific award.
+Before formal ledger recording, verify that the original approval is genuinely human, its hash matches the pending content, it has not expired, the rule and scope match, stable IDs are unique, and the formal ledger's pre-write version is unchanged. Stop the affected item if its content changes, a field is missing, evidence changes or approval cannot be located. The Commander cannot interpret missing approval into existence. Silence, “received” or “looks good” does not approve a specific award.
 
-Approving merit does not approve renaming, additional permissions, messages, publication, new posts or routines. A local simulation updates synthetic records only. This version does not rename real bots. Even if suffix synchronization is added later, it may act only on an approved rank, an authorized subject and the exact authorized suffix; it must not extend to other profile fields.
+Approving merit does not approve renaming, additional permissions, messages, publication, creating roles or bots, or routines. A local simulation updates synthetic records only. This version does not rename real bots. Even if suffix synchronization is added later, it may act only on an approved rank, an authorized subject and the exact authorized suffix; it must not extend to other profile fields.
 
 Recording result: <not executed / PARTIAL / recorded, awaiting independent reconciliation / reconciled>. Itemized entry_id values and reasons for incomplete items: <list>.

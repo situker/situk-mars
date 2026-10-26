@@ -28,7 +28,7 @@
 <rect x="80" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
 <circle cx="105" cy="708" r="12" fill="#153757"/>
 <text x="105" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-<text x="179" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Claim</text>
+<text x="179" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Report</text>
 <text x="179" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Business bots</text>
 <text x="179" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Work and evidence</text>
 <path d="M 278 748 H 294" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
@@ -42,7 +42,7 @@
 <rect x="512" y="680" width="198" height="136" rx="14" fill="#fff0d8" stroke="#e5b65d" stroke-width="1.5"/>
 <circle cx="537" cy="708" r="12" fill="#153757"/>
 <text x="537" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-<text x="611" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Approve</text>
+<text x="611" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Human approval</text>
 <text x="611" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Human Owner</text>
 <text x="611" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Exact items and version</text>
 <path d="M 710 748 H 726" fill="none" stroke="#6c7e96" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
@@ -63,7 +63,7 @@
 <rect x="1160" y="680" width="198" height="136" rx="14" fill="#ffffff" stroke="#d8e0eb" stroke-width="1.5"/>
 <circle cx="1185" cy="708" r="12" fill="#153757"/>
 <text x="1185" y="713" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
-<text x="1259" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Report</text>
+<text x="1259" y="746" font-size="21" font-weight="700" fill="#153757" text-anchor="middle">Weekly report</text>
 <text x="1259" y="776" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Merit Officer</text>
 <text x="1259" y="800" font-size="16" font-weight="400" fill="#465c76" text-anchor="middle">Recorded vs. pending</text>
 <text x="720" y="850" font-size="18" font-weight="400" fill="#566b85" text-anchor="middle">Missing evidence stays pending. Over-cap shares record zero. Points and time create candidates.</text>

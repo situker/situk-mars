@@ -1,6 +1,12 @@
-# Merit verification draft
+# Independent Merit Review
 
-Status: `EVIDENCE_REVIEWED` / `NEEDS_EVIDENCE` / `CONFLICT_TO_HUMAN`. Write this document only in the Merit Officer's own draft location. It does not change formal reports, approval forms, the roster or cumulative totals.
+**Prepared by:** Merit Officer; conflicted cases go to the Human Owner or their previously designated unconflicted reviewer.
+
+**When:** A report is ready for evidence checks, pool allocation, and original-week cap review.
+
+**Hand-off:** Give the findings and exact proposal to the Commander for human approval, retaining all gaps and disputes.
+
+Status: `EVIDENCE_REVIEWED` / `NEEDS_EVIDENCE` / `CONFLICT_TO_HUMAN`. Keep this review in the Merit Officer's own draft location. It does not change formal reports, approval forms, the roster or cumulative totals.
 
 - `review_id` / `version` / `rule_version`: <identifier / version / rule>
 - Linked `report_id`, version and content hash: <exact report>
@@ -22,14 +28,14 @@ Status: `EVIDENCE_REVIEWED` / `NEEDS_EVIDENCE` / `CONFLICT_TO_HUMAN`. Write this
 | Percentages total 100%; lead has ≥60% or an approved exception | <result> | <each participant's actual contribution> |
 | Prior awards, upgrades, corrections and promotion dependencies | <present/none/unknown> | <prior entry and approval> |
 
-Recommended tier and nominal pool: <tier / 1, 3, 8, 20, or a separate human-initiated Honorary Title worth 50>. If prerequisites are not met, recommend a lower tier supported by evidence or request more evidence; a subjective claim of “major” is insufficient. Use the unchanged `policy.json` tier keys `commendation`, `third`, `second`, `first` and `honor` in structured data.
+Recommended tier and nominal pool: <tier / 1, 3, 8, 20, or a separate human-initiated Honorary Title worth 50>. If prerequisites are not met, request the missing evidence or propose a lower tier supported by evidence for fresh human approval. A subjective claim of “major” is insufficient. Use the unchanged `policy.json` tier keys `commendation`, `third`, `second`, `first` and `honor` in structured data.
 
 | `bot_id` | Percentage % | Nominal share | Same-tier awards already used in original week | Expected recorded amount | Reason for excluded points | Qualifies for promotion prerequisites? |
 |---|---:|---:|---:|---:|---|---|
 | <ID> | <60> | <1.80> | <1> | <1.80> | <none/over cap> | <lead ≥60% and positive points/no> |
 
-Allocate shares first, then apply each participant's weekly cap. An over-cap participant's share becomes 0; it does not transfer, move to a lower tier or carry forward. Round to 0.01: first round each allocation down to two decimals, then distribute the remainder in descending fractional-remainder order, breaking ties by stable ID. Total recorded points cannot exceed the event pool.
+Allocate shares first, then apply each participant's weekly cap. An over-cap participant's recorded share becomes 0; it does not transfer, move to a lower tier or carry forward. Round to 0.01: first round each allocation down to two decimals, then distribute the remainder in descending fractional-remainder order, breaking ties by stable ID. Total recorded points cannot exceed the event pool.
 
 Conclusion and items for human decision: <itemized list, especially cases benefiting the Commander, the Merit Officer's own cases and cases involving both>.
 
-Readback reconciliation (append a separate draft after recording): <approved values / entries / totals / target names and independent actual-name readback / consistent, PARTIAL or BLOCKED>. Refer the Merit Officer's own cases to the Human Owner; do not alternate approvals with the Commander. The Commander cannot accept their own recording result.
+Readback reconciliation (append a separate draft after recording): <approved values / entries / totals / target names and independent actual-name readback / consistent, PARTIAL or BLOCKED>. Refer the Merit Officer's own cases to the Human Owner; do not alternate approvals with the Commander. The Commander cannot verify and accept its own recording result.

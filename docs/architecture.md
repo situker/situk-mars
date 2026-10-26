@@ -48,7 +48,7 @@ sequenceDiagram
     participant O as Merit Officer
     participant H as Human Owner
     participant L as Formal records
-    B->>C: 1. Claim: deliverable, acceptance, adoption and shares
+    B->>C: 1. Report: deliverable, acceptance, adoption and shares
     C->>O: Preserve the original report and its version
     O->>O: 2. Review: evidence, duplicates, pool, original week and caps
     O->>H: Exact proposal or evidence/conflict queue
@@ -63,7 +63,7 @@ sequenceDiagram
     Note over B,L: Synthetic exercises use simulated approvals; they do not authorize real actions.
 ```
 
-These are six stages, not six automatic entitlements. Missing evidence stops a proposal; an open week permits preview only. A score or completed time in rank creates a candidate. It does not award the next rank without a separate human decision.
+These stages keep reporting, review, decisions and records separate. Missing evidence stops a proposal; an open week permits preview only. A score or completed time in rank creates a candidate. It does not award the next rank without a separate human decision.
 
 ## Data responsibilities
 
@@ -88,7 +88,7 @@ Runtime documents belong in the customer's explicitly authorized `MERIT_ROOT`, o
 - **Candidates require a separate decision.** Ten ordinary ranks run from Private (`列兵`) to Lieutenant Colonel (`中校`). Points and complete weeks are necessary conditions where configured, alongside acceptance and seat requirements.
 - **Presentation grants no authority.** A target display name and a medal symbol are outputs. Neither changes tools, permissions, bot profiles or routines.
 
-The fixed 0.2.0 award pools are 1, 3, 8, 20 and 50 points; an honorary title for previously rewarded work can be title-only. The complete policy, thresholds and exceptions live in the [Chinese Skill](../skills/zh-CN/situk-mars/SKILL.md) and [English Skill](../skills/en/situk-mars/SKILL.md).
+The fixed 0.2.0 award pools are 1, 3, 8, 20 and 50 points; previously rewarded work receives the honorary title only, without another 50 points. The complete policy, thresholds and exceptions live in the [Chinese Skill](../skills/zh-CN/situk-mars/SKILL.md) and [English Skill](../skills/en/situk-mars/SKILL.md).
 
 ## What the helper proves
 

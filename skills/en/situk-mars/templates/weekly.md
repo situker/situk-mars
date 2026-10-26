@@ -1,6 +1,12 @@
-# Merit weekly report
+# Merit Weekly Report
 
-Generate this report after a manual human request. This template does not create, enable, modify or trigger routines. The Merit Officer writes its own draft; the Commander still records the formal ledger under human approval.
+**Prepared by:** Merit Officer, in its own draft location.
+
+**When:** The Human Owner manually requests a closed-week report or an explicitly labeled current-week preview.
+
+**Hand-off:** Give the Human Owner the merit report, pending-review list, and team-role observations.
+
+Generate this report after a manual human request. Using the template does not create, enable, modify or trigger routines. The Merit Officer writes its own draft; the Commander still records the formal ledger under human approval.
 
 - `weekly_id` / `rule_version` / generated at: <ID / version / timestamp with timezone>
 - Reporting cycle: <ISO week>
@@ -25,7 +31,7 @@ Generate this report after a manual human request. This template does not create
 
 An icon may accompany “🏅 Tier text” only; it does not replace status or formal approval. Label unawarded items “proposed” and do not add them to real names.
 
-## Decisions needed from me
+## Decisions Needed from the Human Owner
 
 <List each exact proposal version, points/shares, original cycle, recusals, promotion/seat conditions and missing approvals. Do not bury disputes in total scores.>
 
@@ -35,6 +41,6 @@ An icon may accompany “🏅 Tier text” only; it does not replace status or f
 
 ## Team role observations
 
-<Use actual assignments and deliveries only to identify duplicated work, duty gaps, reusable capabilities and suggested adjustments. No assignment does not mean poor performance. Do not automatically add posts, demote or freeze bots, change duties or alter scheduling.>
+<Use actual assignments and deliveries only to identify duplicated work, duty gaps, reusable capabilities and suggested adjustments. A lack of assignments does not establish poor performance. Do not automatically create roles or bots, demote or freeze bots, change duties or alter scheduling.>
 
-Report status: <COMPLETE / EMPTY / PARTIAL / BLOCKED>. EMPTY applies only when the entire stated scope has been read and there are no new matters. An open cycle cannot receive final merit recording or support a promotion on that basis. Use PARTIAL for incomplete reading; do not claim that the whole team contributed nothing.
+Report status: <COMPLETE / EMPTY / PARTIAL / BLOCKED>. EMPTY applies only when the entire stated scope has been read and there are no new matters. An open cycle cannot be used for final merit recording or a promotion based on that cycle. Use PARTIAL for incomplete reading; do not claim that the whole team contributed nothing.

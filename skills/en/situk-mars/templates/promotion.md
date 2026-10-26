@@ -1,9 +1,15 @@
-# Promotion and special appointment proposal
+# Promotion and Special Appointment Proposal
 
-Status: `CANDIDATE_ONLY`. Reaching a point threshold creates a candidate only. It does not award a rank, rename a real bot, expand permissions or trigger a routine.
+**Prepared by:** Commander or Merit Officer as a proposal; review must be independent.
+
+**When:** A bot meets candidate conditions or the human initiates a special appointment or removal.
+
+**Hand-off:** Send the exact proposal and supporting evidence to the Human Owner; the Commander records only a valid approved decision.
+
+Status: `CANDIDATE_ONLY`. Reaching a point threshold establishes candidacy only. A candidate proposal does not award a rank, rename a real bot, expand permissions or trigger a routine.
 
 - `proposal_id` / `version` / `rule_version`: <identifier / version / rule>
-- Subject `bot_id` / `job_role` / `base_name`: <stable identity / post / original name>
+- Subject `bot_id` / `job_role` / `base_name`: <stable identity / job role / original name>
 - Current `ordinary_rank` / effective time / approval reference: <formal record>
 - Current special-rank seat: <vacant / active Marshal and decision / needs verification>
 - Request: <ordinary promotion / human-initiated special appointment / revocation or correction>
@@ -26,6 +32,6 @@ If First-Class Merit is cited to advance one rank early, attach the subject's ex
 
 Marshal appointment attachment (human-initiated appointment/removal only): `seat_id=commander-marshal-01`, active holder, proposed appointee, appointment/removal decision, chronology, replacement record, last valid ordinary rank and continuity explanation. An organization has at most one active Marshal; the seat may be vacant. The appointment adds no points, grants no automatic Honorary Title and does not fill in ranks above Lieutenant Colonel.
 
-Post-approval display plan: `base_name〔approved effective rank〕`. Previous name <observed value>; target name <computed value>; actual name <unknown or independent readback>; synchronization status <NOT_REQUESTED/PENDING/MATCHED/BLOCKED>. Local simulation does not rename real bots; icons are for boards only. English rank labels are display text; machine-readable rank values must retain the Chinese keys defined in `policy.json`.
+Display plan after approval: `base_name〔approved effective rank〕`. Previous name <observed value>; target name <computed value>; actual name <unknown or independent readback>; synchronization status <NOT_REQUESTED/PENDING/MATCHED/BLOCKED>. Local simulation does not rename real bots; icons are for boards only. English rank labels are display text; machine-readable rank values must retain the Chinese keys defined in `policy.json`.
 
 Human decision: <decision_id / approved_item_id / exact hash / original approval evidence / validity interval / effective time>. Recording and independent reconciliation: <result>.

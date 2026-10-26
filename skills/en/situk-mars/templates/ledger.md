@@ -1,6 +1,12 @@
-# Formal merit ledger
+# Formal Merit Ledger
 
-Only the Commander appends entries under valid human approval. Preserve the original ledger; totals are a recomputable view. The Merit Officer has read-only access and must not enter awards on someone else's behalf or change cumulative totals.
+**Prepared by:** Commander, as the sole formal ledger writer.
+
+**When:** An exact human approval is valid and the expected ledger version still matches.
+
+**Hand-off:** Send the entries and totals for independent reconciliation; conflicted checks go to the Human Owner.
+
+Only the Commander appends entries under valid human approval. Preserve the original ledger and recompute totals from its entries. The Merit Officer has read-only access and must not enter awards on someone else's behalf or change cumulative totals.
 
 - `ledger_version` / `previous_hash`: <pre-write version / link to the previous record>
 - Scope `organization_id` / `rule_version`: <organization / rule>
@@ -14,8 +20,8 @@ The personal deduplication key consists of `decision_id + approved_item_id + bot
 
 For each event, display its nominal pool, all participants' nominal allocations, each participant's over-cap exclusion, and all actual recorded amounts. The actual total may be smaller than the nominal pool; do not distribute the gap to other participants.
 
-Incomplete recording: <completed entries / incomplete entries / reasons / reconciliation retry plan using the same decision_id>. A failed multi-file write is not “all complete.” Before retrying, check existing entries and the exact approved values; never add the points twice.
+Incomplete recording: <completed entries / incomplete entries / reasons / reconciliation retry plan using the same decision_id>. A failed multi-file write is not “all complete.” Before retrying, check existing entries against the exact approved values so the same points are never added twice.
 
 Corrections use a new approval and appended entries for each person's “revised cumulative amount due − cumulative amount already recorded.” The delta may be negative. Do not overwrite history or reissue the whole pool. If a correction affects promotions, seats or other quotas in the original cycle, submit the affected group for a decision. Keep the original formal ledger until approval.
 
-Append reconciliation records only: <unconflicted reviewer / time / approved values versus entries and totals / differences / resolution status>. A local hash chain helps detect changes; it is not external notarization or host-enforced permission isolation.
+Append reconciliation records only: <unconflicted reviewer / time / approved values versus entries and totals / differences / resolution status>. A local hash chain can help detect changes. It provides neither external notarization nor host-enforced permission isolation.
