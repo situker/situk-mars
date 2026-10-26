@@ -211,10 +211,11 @@ def main():
     args = parser.parse_args()
     try:
         result = run(args.output, args.lang)
-        print(json.dumps(result, ensure_ascii=False, indent=2))
+        # Keep machine-readable CLI output safe on legacy Windows console encodings.
+        print(json.dumps(result, ensure_ascii=True, indent=2))
         return 0
     except (MeritError, OSError, ValueError, AssertionError) as error:
-        print(json.dumps({"status": "SIMULATION_FAILED", "code": getattr(error, "code", "CHECK_FAILED"), "message": str(error)}, ensure_ascii=False))
+        print(json.dumps({"status": "SIMULATION_FAILED", "code": getattr(error, "code", "CHECK_FAILED"), "message": str(error)}, ensure_ascii=True))
         return 2
 
 
