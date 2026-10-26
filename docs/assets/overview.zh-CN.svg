@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">一轮演练，三份结果</title>
+<desc id="desc">三份虚构演练文档的横版概览。正式累计：示例主笔 4.80 分、示例构建员 9.20 分。主笔列兵晋上等兵经过另行模拟批准。待复核事项包括缺采用凭据，以及军务官已批未登记的 1 分，均未加入正式累计。优先复用已验收的检查清单，不自动建岗。这是文档内容预览，不是应用界面；未改动真实机器人或 routine。</desc>
+<style>text{font-family:"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#18332e}.heading{font-weight:700}.muted{fill:#536760}.green{fill:#126650}.amber{fill:#80551a}</style>
+<rect width="1200" height="440" rx="20" fill="#f2f6f4"/>
+<text x="32" y="52" font-size="32" class="heading">一轮演练，三份结果</text>
+<text x="1168" y="52" font-size="20" class="muted" text-anchor="end">6 条虚构战报</text>
+<rect x="32" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="56" y="112" width="36" height="4" rx="2" fill="#126650"/>
+<text x="56" y="150" font-size="26" class="heading">军功记录</text>
+<text x="56" y="212" font-size="24" class="">主笔</text>
+<text x="376" y="216" font-size="44" class="heading green" text-anchor="end">4.80</text>
+<text x="56" y="270" font-size="24" class="">构建员</text>
+<text x="376" y="274" font-size="44" class="heading green" text-anchor="end">9.20</text>
+<text x="56" y="335" font-size="22" class="muted">主笔另批：列兵 → 上等兵</text>
+<rect x="416" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="440" y="112" width="36" height="4" rx="2" fill="#a07031"/>
+<text x="440" y="150" font-size="26" class="heading">待复核</text>
+<text x="440" y="211" font-size="24" class="amber">缺采用凭据</text>
+<text x="440" y="270" font-size="23" class="amber">已批未登记 · 1 分</text>
+<text x="440" y="335" font-size="22" class="muted">未计入正式累计</text>
+<rect x="800" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="824" y="112" width="36" height="4" rx="2" fill="#126650"/>
+<text x="824" y="150" font-size="26" class="heading">岗位观察</text>
+<text x="824" y="211" font-size="24" class="">已验收的检查清单</text>
+<text x="824" y="272" font-size="34" class="heading green">先复用</text>
+<text x="824" y="335" font-size="22" class="muted">不自动建岗</text>
+<text x="600" y="414" font-size="22" class="muted" text-anchor="middle">虚构演练 · 文档预览</text>
+</svg>

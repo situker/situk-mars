@@ -1,5 +1,14 @@
 # Changelog
 
+## Compact project homepage — 2026-10-26
+
+- Give both READMEs the same compact brand header, download navigation and short trial path.
+- Replace two tall homepage figures with one horizontal overview; retain detailed figures in the guides.
+- Move policy and host-specific instructions behind direct documentation links, preserving author channels and original QR images.
+- Add an editable, source-checked bilingual overview renderer. Released Skill archives and the 0.2.0 rules are unchanged.
+
+中英首页精简为成果概览、三步试跑、核心机制和文档导航；公开样张、完整操作图与细则继续保留。
+
 ## Results-first introduction — 2026-10-26
 
 - Move direct language ZIP downloads and actual fictional report samples ahead of roles and policy details.

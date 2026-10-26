@@ -10,9 +10,15 @@ These are the three actual Markdown documents produced by the local exercise. Ev
 | Pending-review list | Missing adoption evidence, an approved but unrecorded item, and an award capped at zero | [English](en/pending-review.md) · [中文](zh-CN/pending-review.md) |
 | Team-role observations | Reusing accepted assets, and why the supplied evidence does not justify a new position | [English](en/team-observations.md) · [中文](zh-CN/team-observations.md) |
 
+## Compact overview
+
+![Compact overview of the fictional exercise documents](../assets/overview.en.svg)
+
+## Fuller excerpts
+
 ![Fictional local document excerpts](../assets/exercise-preview.en.svg)
 
-The preview combines these three documents with the same exercise's fictional input, reformatted for reading. The accepted checklist and its second independent task come from the builder's report in [the published exercise input](../../skills/en/situk-mars/examples/synthetic-reports.json); the team-role document itself describes asset reuse in general terms. It is not a screenshot of GrokBot or a separate dashboard. W43 is the merit cycle; recording and the writer's rank change occur in W44. The three documents are manually generated samples; this exercise creates no weekly schedule.
+Both previews combine these three documents with the same exercise's fictional input, reformatted for reading; they are not verbatim screenshots of the reports. The accepted checklist and its second independent task come from the builder's report in [the published exercise input](../../skills/en/situk-mars/examples/synthetic-reports.json); the team-role document itself describes asset reuse in general terms. Neither figure is a screenshot of GrokBot or a separate dashboard. W43 is the merit cycle; recording and the writer's rank change occur in W44. The three documents are manually generated samples; this exercise creates no weekly schedule. The existing longer preview and [first-run operation figure](../assets/first-run.en.svg) remain available.
 
 ## Reproduce the source documents
 
@@ -36,7 +42,8 @@ The published sample filenames are shortened for stable links. Their contents we
 [source-map.json](source-map.json) records each document's source filename and SHA-256 with line endings normalized to LF. The figures use these six samples and the corresponding language pack's `examples/synthetic-reports.json`. For the checklist, the renderer checks `delivery_ref`, `acceptance_criteria`, `reuse_task_id` and `reuse_acceptance_ref`. To rebuild the SVG previews:
 
 ```bash
+python -B docs/examples/build_overview.py
 python -B docs/examples/build_preview.py
 ```
 
-This documentation renderer checks the cited values and source phrases before writing the figures. It uses the Python standard library, makes no network requests, and never connects to GrokBot.
+`build_overview.py` rebuilds the compact horizontal figures and also verifies all six sample hashes. `build_preview.py` rebuilds the original longer figures. Both documentation renderers check cited values and source phrases before writing the figures, use the Python standard library, make no network requests, and never connect to GrokBot.

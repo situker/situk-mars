@@ -2,11 +2,12 @@
 
 ## Exercise and first-run previews
 
+- `overview.en.svg` and `overview.zh-CN.svg` are the compact, horizontal overview used on the project homepage: recorded merit, pending review and role observations. Rebuild both with `python -B docs/examples/build_overview.py` from the repository root. The renderer checks the six sample hashes and the same fictional exercise input before writing the figures.
 - `exercise-preview.en.svg` and `exercise-preview.zh-CN.svg` show the fictional local exercise documents and selected input context. Sources, line-ending-normalized hashes and the standard-library renderer are in [examples](../examples/README.md).
 - `first-run.en.svg` and `first-run.zh-CN.svg` show the verified ZIP-based local route: extract, run one command, open the three documents. See the [first-run guide](../quickstart.md).
 - These figures describe local documentation and fictional data; they are not GrokBot interface screenshots.
 
-演练成果图以公开样张和同轮虚构输入为依据，首次试跑图对应已验证的 ZIP 路线。四张图均为可编辑的文字矢量图。
+横版概览和原有长版成果图，以公开样张和同轮虚构输入为依据重新组织内容，并非周报或岗位观察的逐字截图；检查清单细节来自同轮构建员战报。首次试跑图对应已验证的 ZIP 路线。六张图均为可编辑的文字矢量图，旧长图和首次操作图继续保留。
 
 ## Author contact images
 

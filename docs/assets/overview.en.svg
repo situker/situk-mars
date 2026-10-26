@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">One exercise, three useful documents</title>
+<desc id="desc">A compact preview of three fictional exercise documents. Recorded totals: Example Writer 4.80 and Example Builder 9.20. The writer receives Private First Class only after a separate simulated approval. Pending items include missing adoption evidence and the Merit Officer&#x27;s approved but unrecorded 1 point; neither adds to recorded totals. Reuse the accepted checklist before proposing new roles. This is a document preview, not an application interface. No live bots or routines are changed.</desc>
+<style>text{font-family:"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#18332e}.heading{font-weight:700}.muted{fill:#536760}.green{fill:#126650}.amber{fill:#80551a}</style>
+<rect width="1200" height="440" rx="20" fill="#f2f6f4"/>
+<text x="32" y="52" font-size="32" class="heading">One exercise, three useful documents</text>
+<text x="1168" y="52" font-size="20" class="muted" text-anchor="end">6 fictional reports</text>
+<rect x="32" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="56" y="112" width="36" height="4" rx="2" fill="#126650"/>
+<text x="56" y="150" font-size="26" class="heading">Merit records</text>
+<text x="56" y="212" font-size="24" class="">Writer</text>
+<text x="376" y="216" font-size="44" class="heading green" text-anchor="end">4.80</text>
+<text x="56" y="270" font-size="24" class="">Builder</text>
+<text x="376" y="274" font-size="44" class="heading green" text-anchor="end">9.20</text>
+<text x="56" y="335" font-size="22" class="muted">Writer: separate rank approval</text>
+<rect x="416" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="440" y="112" width="36" height="4" rx="2" fill="#a07031"/>
+<text x="440" y="150" font-size="26" class="heading">Pending review</text>
+<text x="440" y="211" font-size="24" class="amber">Adoption evidence missing</text>
+<text x="440" y="270" font-size="23" class="amber">1 point approved, unposted</text>
+<text x="440" y="335" font-size="22" class="muted">Outside recorded totals</text>
+<rect x="800" y="90" width="368" height="276" rx="16" fill="#ffffff" stroke="#cad8d1"/>
+<rect x="824" y="112" width="36" height="4" rx="2" fill="#126650"/>
+<text x="824" y="150" font-size="26" class="heading">Role observations</text>
+<text x="824" y="211" font-size="24" class="">Accepted checklist</text>
+<text x="824" y="272" font-size="34" class="heading green">Reuse first</text>
+<text x="824" y="335" font-size="22" class="muted">No automatic role creation</text>
+<text x="600" y="414" font-size="22" class="muted" text-anchor="middle">Fictional exercise · Document preview</text>
+</svg>
