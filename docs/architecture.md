@@ -4,7 +4,7 @@
 
 A finished article, a reusable asset and an accepted task follow the same record trail: who delivered what, which evidence supports it, who approved the award and whether it reached the formal ledger. situk-MARS gives GrokBot teams that trail for merit and military rank rewards.
 
-![situk-MARS team architecture: human decisions, Commander coordination and independent merit review, with ordinary ranks and the Marshal appointment recorded separately](assets/team-architecture.en.svg)
+![situk-MARS team architecture: human decisions, Commander coordination and independent merit review, with ordinary ranks and the Marshal appointment recorded separately](assets/team-architecture.en.png)
 
 - **Commander**: coordinates the team, collects reports, preserves original material and is the sole recorder of changes explicitly approved by the human.
 - **Merit Officer**: independently examines delivery and adoption evidence, duplicates, shared awards and weekly caps; reconciles the records afterward and prepares weekly reports.

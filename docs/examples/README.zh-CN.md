@@ -12,7 +12,7 @@
 
 ## 横版概览
 
-![虚构演练文档的横版概览](../assets/overview.zh-CN.svg)
+![虚构演练文档的横版概览](../assets/overview.zh-CN.png)
 
 ## 较完整的节选
 
@@ -46,4 +46,4 @@ python -B docs/examples/build_overview.py
 python -B docs/examples/build_preview.py
 ```
 
-`build_overview.py` 重建横版概览，并核对六份样张的校验值；`build_preview.py` 重建原有长版成果图。两个制图脚本都会先核对引用的分数和原文要点，再写入图形。它们只用 Python 标准库，不联网，不连接 GrokBot。
+`build_overview.py` 重建纯矢量 SVG 概览，并核对六份样张的校验值；`build_preview.py` 重建原有长版成果图。两个制图脚本都会先核对引用的分数和原文要点，再写入图形。它们只用 Python 标准库，不联网，不连接 GrokBot。上方熊猫 PNG 是基于同一批虚构记录另行审核的插画成图，这些脚本不重建其中的角色画面。

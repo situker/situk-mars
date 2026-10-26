@@ -12,7 +12,7 @@ These are the three actual Markdown documents produced by the local exercise. Ev
 
 ## Compact overview
 
-![Compact overview of the fictional exercise documents](../assets/overview.en.svg)
+![Compact overview of the fictional exercise documents](../assets/overview.en.png)
 
 ## Fuller excerpts
 
@@ -46,4 +46,4 @@ python -B docs/examples/build_overview.py
 python -B docs/examples/build_preview.py
 ```
 
-`build_overview.py` rebuilds the compact horizontal figures and also verifies all six sample hashes. `build_preview.py` rebuilds the original longer figures. Both documentation renderers check cited values and source phrases before writing the figures, use the Python standard library, make no network requests, and never connect to GrokBot.
+`build_overview.py` rebuilds the plain SVG overview and also verifies all six sample hashes. `build_preview.py` rebuilds the original longer figures. Both documentation renderers check cited values and source phrases before writing the figures, use the Python standard library, make no network requests, and never connect to GrokBot. The panda PNG shown above is a separately reviewed illustration using the same fictional records; these scripts do not regenerate its artwork.

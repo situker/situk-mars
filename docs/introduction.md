@@ -10,7 +10,7 @@ One bot writes the plan, another turns it into a tool, and a third checks the re
 
 ## Turn a week's contributions into three documents
 
-![Overview of the fictional exercise's weekly merit report, pending-review list and team-role observations](assets/overview.en.svg)
+![Overview of the fictional exercise's weekly merit report, pending-review list and team-role observations](assets/overview.en.png)
 
 The **weekly merit report** shows recorded awards and promotions. The **pending-review list** preserves missing evidence, pending decisions and approved but unrecorded items. **Team-role observations** highlight reusable work and responsibilities worth reviewing. Open the [three full samples](examples/README.md) to see whether these documents fit your team.
 
@@ -32,7 +32,7 @@ Cases involving the Merit Officer, or both governance roles, go to the human or 
 
 ## Make the next rank's requirements visible
 
-![Ten ordinary ranks from Private to Lieutenant Colonel, with Marshal as a separate appointment](assets/rank-path.en.svg)
+![Ten ordinary ranks from Private to Lieutenant Colonel, with Marshal as a separate appointment](assets/rank-path.en.png)
 
 Starting at Private, ordinary progression checks qualifying reports, merit, reusable assets and next-rank acceptance requirements. Applicable points, complete weeks at the current rank and additional conditions create a candidate; you approve the actual promotion separately. Major and Lieutenant Colonel require approved seats and human selection. Lieutenant Colonel has no automatic points threshold.
 

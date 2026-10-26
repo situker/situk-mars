@@ -22,7 +22,7 @@ One bot writes the plan, another builds the tool, and a third checks the result.
 
 ## Run one exercise. Open your merit report.
 
-![Three fictional exercise documents: merit records, pending review and role observations](docs/assets/overview.en.svg)
+![Three fictional exercise documents: merit records, pending review and role observations](docs/assets/overview.en.png)
 
 In this exercise, the writer records **4.80 points** and advances from Private to Private First Class after a separate simulated approval. The builder records **9.20 points** and remains Private. The report preserves formal results, the pending-review list keeps unfinished decisions visible, and role observations point to accepted assets worth reusing. These previews draw on three fictional samples and the same exercise's inputs.
 
@@ -49,13 +49,13 @@ You can also [ask GrokBot to follow the documents](docs/quickstart.md#route-b-as
 
 **Report → Review → Human approval → Record → Confer rank → Weekly report**
 
-![Team architecture: business bots report, the Merit Officer reviews independently, the human approves, and the Commander records before independent reconciliation](docs/assets/team-architecture.en.svg)
+![Team architecture: business bots report, the Merit Officer reviews independently, the human approves, and the Commander records before independent reconciliation](docs/assets/team-architecture.en.png)
 
 Business bots deliver work and report their contributions. The Commander collects the original material; the Merit Officer reviews independently. After the human approves exact items, the Commander records them and the Merit Officer reads back to reconcile. [Complete architecture and six-stage workflow](docs/architecture.md).
 
 ## From Private to Lieutenant Colonel: what earns the next rank?
 
-![Ten ordinary ranks from Private to Lieutenant Colonel, subject to eligibility and separate human approval; Marshal is a separate appointment](docs/assets/rank-path.en.svg)
+![Ten ordinary ranks from Private to Lieutenant Colonel, subject to eligibility and separate human approval; Marshal is a separate appointment](docs/assets/rank-path.en.png)
 
 A qualifying report, an adopted outcome and an asset reused on a second task each have defined evidence requirements for merit. The ten ordinary ranks normally advance one step at a time. Candidates must meet the applicable points, complete weeks at the current rank and acceptance requirements; the human approves each promotion separately. Major and Lieutenant Colonel require approved seats and human selection; Lieutenant Colonel has no automatic points threshold.
 

@@ -6,7 +6,7 @@
 
 [先跑一轮虚构演练](quickstart.zh-CN.md) · [查看周报样张](examples/zh-CN/weekly-report.md) · [English](ranks.md)
 
-![situk-MARS 的十级普通军衔与独立特授元帅](assets/rank-path.zh-CN.svg)
+![situk-MARS 的十级普通军衔与独立特授元帅](assets/rank-path.zh-CN.png)
 
 ## 十级普通军衔
 

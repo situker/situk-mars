@@ -6,7 +6,7 @@ This guide covers ordinary ranks and special appointments in situk-MARS v0.2.0. 
 
 [Try the fictional exercise](quickstart.md) · [See the sample weekly report](examples/en/weekly-report.md) · [简体中文](ranks.zh-CN.md)
 
-![The ten ordinary ranks in situk-MARS and the separate Marshal appointment](assets/rank-path.en.svg)
+![The ten ordinary ranks in situk-MARS and the separate Marshal appointment](assets/rank-path.en.png)
 
 ## Ten ordinary ranks
 
