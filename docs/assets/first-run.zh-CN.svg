@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1160" viewBox="0 0 900 1160" role="img" aria-labelledby="title desc">
+<title id="title">situk-MARS 第一次试跑：三步看到结果</title>
+<desc id="desc">下载中文包并解压，在 situk-mars 文件夹运行一条 Python 命令，再打开新输出目录中的军功周报、待复核清单和团队岗位观察。全部材料虚构，不改现役机器人或 routine。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8496aa"/></marker></defs>
+<rect width="900" height="1160" fill="#f4f7fb"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif">
+<text x="40" y="52" font-size="24" font-weight="700" fill="#446583">situk-MARS</text>
+<text x="40" y="105" font-size="38" font-weight="700" fill="#142b47">第一次试跑：三步看到结果</text>
+<text x="40" y="151" font-size="27" fill="#4a6078">用虚构团队演练，先看看这套记录有没有用。</text>
+<rect x="24" y="190" width="852" height="190" rx="20" fill="#ffffff" stroke="#d6e1ed" stroke-width="2"/>
+<circle cx="67" cy="238" r="25" fill="#163e61"/>
+<text x="67" y="248" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">1</text>
+<text x="108" y="249" font-size="32" font-weight="700" fill="#142b47">下载中文包并解压</text>
+<text x="48" y="306" font-size="28" font-weight="500" fill="#405b75">situk-mars-v0.2.0-zh-CN.zip</text>
+<text x="48" y="351" font-size="28" fill="#405b75">在 situk-mars 文件夹打开终端。</text>
+<path d="M 450 386 V 413" fill="none" stroke="#8496aa" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="24" y="420" width="852" height="180" rx="20" fill="#ffffff" stroke="#d6e1ed" stroke-width="2"/>
+<circle cx="67" cy="468" r="25" fill="#163e61"/>
+<text x="67" y="478" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">2</text>
+<text x="108" y="479" font-size="32" font-weight="700" fill="#142b47">运行一条命令</text>
+<rect x="48" y="512" width="804" height="62" rx="10" fill="#eaf1f8"/>
+<text x="62" y="552" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="500" fill="#173b5c">python -B scripts/simulate.py --output ../mars-demo-new</text>
+<path d="M 450 606 V 633" fill="none" stroke="#8496aa" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="24" y="640" width="852" height="275" rx="20" fill="#ffffff" stroke="#d6e1ed" stroke-width="2"/>
+<circle cx="67" cy="688" r="25" fill="#163e61"/>
+<text x="67" y="698" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">3</text>
+<text x="108" y="699" font-size="32" font-weight="700" fill="#142b47">打开 mars-demo-new</text>
+<text x="48" y="749" font-size="27" fill="#4a6078">先看军功周报：</text>
+<text x="48" y="797" font-size="34" font-weight="700" fill="#176950">06-军功周报.md</text>
+<text x="48" y="850" font-size="28" fill="#4a6078">再看 06-待复核清单.md</text>
+<text x="48" y="890" font-size="28" fill="#4a6078">以及 06-团队岗位观察.md</text>
+<text x="40" y="967" font-size="26" fill="#526b83">Python 3.11+ · 只用标准库 · 演练无需账号和密钥</text>
+<text x="40" y="1007" font-size="26" fill="#526b83">最终输出目录不要预建；已有同名目录就换新名字。</text>
+<text x="40" y="1061" font-size="26" font-weight="500" fill="#526b83">全部输入、证据和批准均为虚构。</text>
+<text x="40" y="1101" font-size="26" font-weight="500" fill="#526b83">不改现役机器人或 routine。</text>
+</g>
+</svg>

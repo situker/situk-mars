@@ -1,5 +1,14 @@
 # Changelog
 
+## Results-first introduction — 2026-10-26
+
+- Move direct language ZIP downloads and actual fictional report samples ahead of roles and policy details.
+- Add bilingual exercise-result previews and three-step local first-run diagrams.
+- Explain the extracted ZIP layout, one-command exercise and exact output filenames; keep GrokBot host capabilities explicit.
+- Publish the three original exercise documents in each language, with a source map and reproducible preview renderer.
+
+成果样张和下载入口前置，中英首页与试跑说明同步更新。军功引擎、数值制度、现役机器人及 routine 未变。
+
 ## Documentation update — 2026-10-26
 
 - Clarify the product introduction, role names and six-stage instructions in both languages.

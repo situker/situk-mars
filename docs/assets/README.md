@@ -1,4 +1,14 @@
-# Author contact images
+# Documentation images
+
+## Exercise and first-run previews
+
+- `exercise-preview.en.svg` and `exercise-preview.zh-CN.svg` show the fictional local exercise documents and selected input context. Sources, line-ending-normalized hashes and the standard-library renderer are in [examples](../examples/README.md).
+- `first-run.en.svg` and `first-run.zh-CN.svg` show the verified ZIP-based local route: extract, run one command, open the three documents. See the [first-run guide](../quickstart.md).
+- These figures describe local documentation and fictional data; they are not GrokBot interface screenshots.
+
+演练成果图以公开样张和同轮虚构输入为依据，首次试跑图对应已验证的 ZIP 路线。四张图均为可编辑的文字矢量图。
+
+## Author contact images
 
 The two QR images are reused byte for byte from Situk's existing public project:
 

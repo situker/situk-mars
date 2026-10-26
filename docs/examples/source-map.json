@@ -1,0 +1,37 @@
+{
+  "rule_version": "0.2.0",
+  "exercise": "synthetic; no live bots, real approvals or routines",
+  "line_endings_for_hash": "LF",
+  "files": [
+    {
+      "sample": "en/weekly-report.md",
+      "simulator_output": "06-weekly-report.md",
+      "sha256_utf8_lf": "1fcfc8d223e3998c303a3ff131efab7a98bc3ac35b5a00e55ee098e72150b86a"
+    },
+    {
+      "sample": "en/pending-review.md",
+      "simulator_output": "06-pending-review.md",
+      "sha256_utf8_lf": "85ac78cd67318b5a198e161b624f0c7f51498cc8ed4709ff6e077ca006a74abd"
+    },
+    {
+      "sample": "en/team-observations.md",
+      "simulator_output": "06-team-observations.md",
+      "sha256_utf8_lf": "94217c340d6c733b62a0a66f6450e70240c66f44de3741ffd621ff0f5a399ae5"
+    },
+    {
+      "sample": "zh-CN/weekly-report.md",
+      "simulator_output": "06-军功周报.md",
+      "sha256_utf8_lf": "601d292abc976baba4b6093528488481a91c11f31e5f4d2917ae3c6800276264"
+    },
+    {
+      "sample": "zh-CN/pending-review.md",
+      "simulator_output": "06-待复核清单.md",
+      "sha256_utf8_lf": "d084447586fa693904c45d390882674e6736f0b8fe6d48f53cefd4b29de43010"
+    },
+    {
+      "sample": "zh-CN/team-observations.md",
+      "simulator_output": "06-团队岗位观察.md",
+      "sha256_utf8_lf": "de426eba231b31d2407de632f29728bac3cf1ffd948782d86ea1d80092d6ae2b"
+    }
+  ]
+}

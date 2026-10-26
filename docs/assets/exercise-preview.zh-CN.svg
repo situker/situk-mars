@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1210" viewBox="0 0 760 1210" role="img" aria-labelledby="title desc">
+<title id="title">一轮演练，你会拿到什么</title>
+<desc id="desc">三份本地演练文档及同轮虚构输入的整理预览：主笔4.80分、构建员9.20分、缺采用凭据、已批未登记1分，以及优先复用已验收检查清单、不自动补岗的团队观察。</desc>
+<style>text{font-family:Inter,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#152b32} .muted{fill:#536a72} .heading{font-weight:700} .mono{font-family:"Cascadia Code",Consolas,"Microsoft YaHei",monospace} .green{fill:#0d715d} .amber{fill:#92620a}</style>
+<rect width="760" height="1210" rx="24" fill="#f2f6f6"/>
+<rect x="40" y="34" width="5" height="112" rx="2" fill="#167f6a"/>
+<text x="61" y="54" font-size="18" class="heading green">SITUK-MARS / EXERCISE PREVIEW</text>
+<text x="61" y="104" font-size="36" class="heading">一轮演练，你会拿到什么</text>
+<text x="61" y="144" font-size="24" class="muted">三份文档，看清成果和接下来要处理的事。</text>
+<rect x="40" y="177" width="680" height="300" rx="18" fill="#ffffff" stroke="#d8e3e4"/>
+<rect x="60" y="198" width="45" height="38" rx="10" fill="#e0f3ee"/>
+<text x="82" y="225" font-size="23" class="heading green" text-anchor="middle">01</text>
+<text x="120" y="225" font-size="30" class="heading">军功周报</text>
+<text x="64" y="257" font-size="20" class="muted mono">06-军功周报.md · 正式累计</text>
+<line x1="64" y1="273" x2="696" y2="273" stroke="#e5ebec"/>
+<text x="64" y="314" font-size="26" class="heading">示例主笔</text>
+<text x="690" y="317" font-size="42" class="heading green" text-anchor="end">4.80</text>
+<text x="64" y="350" font-size="22" class="muted">列兵 → 上等兵 · 另行模拟批准后授衔</text>
+<text x="64" y="400" font-size="26" class="heading">示例构建员</text>
+<text x="690" y="403" font-size="42" class="heading green" text-anchor="end">9.20</text>
+<text x="64" y="436" font-size="22" class="muted">保持列兵 · 候选资格不等于已经晋衔</text>
+<text x="64" y="463" font-size="19" class="muted">军功归属 W43 · 晋衔生效 W44</text>
+<rect x="40" y="497" width="680" height="285" rx="18" fill="#ffffff" stroke="#d8e3e4"/>
+<rect x="60" y="518" width="45" height="38" rx="10" fill="#fff1d7"/>
+<text x="82" y="545" font-size="23" class="heading green" text-anchor="middle">02</text>
+<text x="120" y="545" font-size="30" class="heading">待复核清单</text>
+<text x="64" y="577" font-size="20" class="muted mono">06-待复核清单.md</text>
+<line x1="64" y1="593" x2="696" y2="593" stroke="#e5ebec"/>
+<text x="64" y="628" font-size="26" class="heading amber">缺采用凭据</text>
+<text x="64" y="664" font-size="24" class="muted">构建员摘要：补采用确认后再核功，正式分 0</text>
+<text x="64" y="716" font-size="26" class="heading amber">已批未登记</text>
+<text x="64" y="752" font-size="24" class="muted">军务官嘉奖 1 分，尚未进入正式累计</text>
+<rect x="40" y="802" width="680" height="285" rx="18" fill="#ffffff" stroke="#d8e3e4"/>
+<rect x="60" y="823" width="45" height="38" rx="10" fill="#e0f3ee"/>
+<text x="82" y="850" font-size="23" class="heading green" text-anchor="middle">03</text>
+<text x="120" y="850" font-size="30" class="heading">团队岗位观察</text>
+<text x="64" y="882" font-size="20" class="muted mono">06-团队岗位观察.md + 同轮虚构输入</text>
+<line x1="64" y1="898" x2="696" y2="898" stroke="#e5ebec"/>
+<text x="64" y="934" font-size="26" class="heading green">先复用已验收的检查清单。</text>
+<text x="64" y="970" font-size="24" class="muted">清单已在第二个独立任务中验收。</text>
+<text x="64" y="1022" font-size="25" class="heading">观察先作为建议草案。</text>
+<text x="64" y="1058" font-size="24" class="muted">不自动补岗或创建机器人。</text>
+<text x="380" y="1137" font-size="24" class="heading" text-anchor="middle">虚构演练 · 本地文档内容预览</text>
+<text x="380" y="1174" font-size="21" class="muted" text-anchor="middle">不是 GrokBot 界面 · 没有改动真实机器人或 routine</text>
+</svg>

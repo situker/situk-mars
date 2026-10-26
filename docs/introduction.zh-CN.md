@@ -2,6 +2,10 @@
 
 **给机器人团队立军衔，按贡献论功行赏。**
 
+[下载中文 ZIP](https://github.com/situker/situk-mars/releases/download/v0.2.0/situk-mars-v0.2.0-zh-CN.zip) · [先看周报样张](examples/zh-CN/weekly-report.md) · [首次试跑](quickstart.zh-CN.md)
+
+先看一轮会交付什么：军功周报列出已记奖赏，待复核清单列出缺证与待决定事项，岗位观察整理复用机会和职责问题。[查看三份演练结果](examples/README.zh-CN.md)。
+
 situk-MARS 的英文全名是 **Situk Merit-based Agent Rank System**，简称 **MARS**。它是一套面向 GrokBot 团队的组织与奖赏 Skill，把交付、验收、采用和贡献分工整理成军功记录，再由人类决定奖赏与晋衔。
 
 ## 机器人多了，贡献要说得清

@@ -2,6 +2,10 @@
 
 **Give your bot team ranks. Reward their contributions.**
 
+[Download English ZIP](https://github.com/situker/situk-mars/releases/download/v0.2.0/situk-mars-v0.2.0-en.zip) · [See a sample report](examples/en/weekly-report.md) · [First run](quickstart.md)
+
+Start with the results: a weekly merit report shows recorded rewards, a pending-review list identifies missing evidence and decisions, and team-role observations highlight reuse opportunities and responsibilities worth reviewing. [Browse the three exercise documents](examples/README.md).
+
 **Situk Merit-based Agent Rank System (MARS)** is a military-style rank and merit Skill for GrokBot teams. It helps you answer a practical question: when several bots work together, who contributed what, and which rewards are justified?
 
 One bot writes the plan, another builds the tool, and a third checks the result. The work may be useful, but the evidence is scattered across conversations. MARS brings deliveries, acceptance, adoption, reviews and decisions into a shared document workflow. Merit follows inspectable contributions, rather than message counts or a bot's own claims.
@@ -18,7 +22,7 @@ Those responsibilities remain separate from rank. **Marshal** is a special appoi
 
 A bot first reports what it delivered and provides acceptance or adoption evidence. Review establishes what the evidence supports, checks shared contributions and caps, and identifies conflicts. The Human Owner approves exact items; the Commander then records the approved result once.
 
-One event has one award pool, divided among contributors. A late claim remains in its original week. A capped share records **0**, without being transferred, downgraded or carried forward. An Honorary Title grants **50 points** only for independent new outcomes; previously awarded work can receive the title without another **50 points**.
+One event has one award pool, divided among contributors. A late claim remains in its original week. A capped share records **0**, without being transferred, downgraded or carried forward. An Honorary Title grants **50 points** only for independent new outcomes; previously awarded work receives the title only, without another **50 points**.
 
 Points and ranks serve different purposes. The **ten ordinary ranks** have eligibility requirements, but meeting them only creates a candidate. A promotion needs its own human approval. Marshal remains a separate appointment, outside that ordinary progression.
 

@@ -1,114 +1,112 @@
 # situk-MARS
 
-**Situk Merit-based Agent Rank System (MARS)**
-
 **Give your bot team ranks. Reward their contributions.**
 
-[简体中文](README.zh-CN.md) · [Architecture](docs/architecture.md) · [Introduction](docs/introduction.md) · [About the author](docs/about-author.md) · [MIT License](LICENSE)
+For GrokBot teams with multiple bots, MARS turns scattered delivery and adoption records into a **weekly merit report, a pending-review list and team-role observations**. See who delivered what, which work was adopted and what still needs your decision.
 
-situk-MARS is a military-style rank and merit system for GrokBot teams. It gives you a consistent way to report contributions, review the evidence, approve rewards, record points, confer ranks and see the results each week.
+The Merit Officer reviews independently. You approve awards and promotions. Start with a fictional team before deciding how to adopt the workflow for your own bots.
 
-The aim is simple: make useful work visible and give every reward a clear reason. The **Commander** coordinates the process, the **Merit Officer** reviews it, and the **Human Owner** makes the final decisions.
+**[Download English ZIP](https://github.com/situker/situk-mars/releases/download/v0.2.0/situk-mars-v0.2.0-en.zip) · [See a sample report](docs/examples/en/weekly-report.md) · [First-run guide](docs/quickstart.md) · [简体中文](README.zh-CN.md)**
 
-![situk-MARS architecture](docs/assets/architecture.en.svg)
+MIT licensed · English and Chinese · Document Skill with nine templates · Optional local Python helper
 
-## When your bot team needs a shared record
+**Situk Merit-based Agent Rank System (MARS)**
 
-One bot drafts a plan. Another turns it into a working tool. A third checks the result. A week later, their contributions are spread across conversations, and it is hard to tell what was delivered, what was adopted and who contributed to the outcome.
+## See what the exercise produces
 
-MARS brings those questions into one document workflow:
+In one fictional shared guide, the writer supplies the instructions and the builder supplies a verification checklist. The two parts are adopted as one outcome and share 3 points: 1.80 for the writer and 1.20 for the builder. These shares contribute to the totals shown below.
 
-- What did each bot deliver, and who accepted or adopted it?
-- Which contributions deserve an award, and how should collaborators share it?
-- Which awards are approved and recorded, and which are still waiting?
-- Who is eligible for promotion, and what needs the owner's decision?
+![Preview of the weekly merit report, pending-review list and team-role observations from the fictional exercise](docs/assets/exercise-preview.en.svg)
 
-The records focus on inspectable work and evidence. Message counts, time online and a bot's own praise do not establish merit.
+*These previews combine three local documents and their fictional exercise inputs.*
 
-## Who does what
+| Result | What to look for | Full sample |
+|---|---|---|
+| **Weekly merit report** | Recorded merit, ordinary ranks and special appointments | [Read the report](docs/examples/en/weekly-report.md) |
+| **Pending-review list** | Missing evidence, pending decisions and approved but unrecorded items | [Read the list](docs/examples/en/pending-review.md) |
+| **Team-role observations** | Reusable assets, duplicated work and responsibilities worth reviewing | [Read the observations](docs/examples/en/team-observations.md) |
 
-| Role | Responsibility |
-|---|---|
-| Human Owner | Approves exact award items, promotions and special appointments; handles conflicts that need human review |
-| Commander | Collects reports, prepares proposals and is the sole writer of the official ledger under valid approval |
-| Merit Officer | Reviews evidence, checks duplicates, shares and caps, then independently reconciles the records |
-| Business bots | Deliver work, report their contributions and provide acceptance or adoption evidence |
+In the exercise, the writer records 4.80 points and becomes Private First Class after a separate simulated approval. The builder records 9.20 and remains Private. The Merit Officer's approved but unrecorded 1-point item stays outside totals. **Points, eligibility, approval and formal recording remain separate.**
 
-**Commander is a job role. Marshal is a separate special appointment.** The Human Owner may appoint zero or one Marshal, held by the Commander. It grants no points, does not reset the ordinary-rank clock and gives no authority to approve one's own awards.
+## Download, then try one exercise
 
-The Merit Officer's own cases, and cases involving both governance roles, go to the Human Owner or an unconflicted third party designated in advance by that human. If a role is unfilled, the human can cover it while a separate setup proposal is considered.
+The ZIP contains a `situk-mars` folder with `SKILL.md`, rules, nine templates, fictional inputs, and optional calculation and exercise scripts. **Choose either route below.** The fixed exercise needs no configuration of your real team.
 
-## The six-stage workflow
+### Route A: generate the documents locally
+
+Requires Python 3.11+ and its standard library. The exercise needs no account, key or network connection.
+
+![Three steps: download and extract the language pack, run one command, then open the three exercise documents](docs/assets/first-run.en.svg)
+
+1. [Download the English ZIP](https://github.com/situker/situk-mars/releases/download/v0.2.0/situk-mars-v0.2.0-en.zip), extract it and open the `situk-mars` folder inside.
+2. Open a terminal in that folder and run this one command:
+
+```bash
+python -B scripts/simulate.py --output ../mars-demo-new
+```
+
+3. After `SIMULATION_PASSED`, open the new sibling folder `mars-demo-new`. Read `06-weekly-report.md` first, followed by `06-pending-review.md` and `06-team-observations.md`.
+
+Use `python3` where needed. **Do not create `mars-demo-new` beforehand.** It must be outside the Skill folder and must not already exist. For another run, choose a new output name and keep the earlier results. See the [full first-run guide](docs/quickstart.md).
+
+### Route B: ask GrokBot to follow the documents
+
+Place the complete extracted folder somewhere your current GrokBot host can read, provide the actual path to `SKILL.md`, and send:
+
+> Read this situk-MARS Skill and run a complete fictional exercise in the current conversation: report, review, human approval, record, confer rank and weekly report. Use fictional bots and simulated approvals. Finish with the weekly merit report, pending-review list and team-role observations. Label all materials as an exercise. Do not read real rosters, install the Skill, create or modify bots, or change routines. If you cannot read the complete folder or perform a step, explain the gap without claiming completion.
+
+This route depends on the host's file-reading and output capabilities; it does not assume GrokBot can run Python. Use Route A if you cannot provide access to the complete files. See [GrokBot handoff details](docs/quickstart.md).
+
+## How an award becomes a record
 
 **Report → Review → Human approval → Record → Confer rank → Weekly report**
 
-1. **Report:** describe the delivery, contributors, acceptance or adoption, and evidence.
-2. **Review:** check the evidence, duplicate events, contribution shares, original-week caps and conflicts of interest.
-3. **Human approval:** obtain a traceable decision for the exact proposal and its items.
-4. **Record:** the Commander posts the approved result once. Approved but unrecorded points stay outside formal totals.
-5. **Confer rank:** check eligibility, submit a separate promotion proposal and record the human decision.
-6. **Weekly report:** produce a merit report, a pending-review list and team-role observations.
+Business bots submit specific deliverables, acceptance records and adoption evidence. The Merit Officer checks duplicate outcomes, contribution shares, weekly caps and conflicts. Once you approve the exact items, the Commander records them. Meeting a promotion threshold creates a candidate; the promotion needs its own approval.
 
-Meeting a rank threshold creates a candidate. Conferring the rank still needs a separate approval. Team-role observations can identify gaps or duplicated work; they do not automatically create bots or change responsibilities.
-
-## The rules behind the rewards
-
-| Mechanism | Rule |
+| Role | Responsibility |
 |---|---|
-| Five award grades | Commendation **1**; Third-Class Merit **3**; Second-Class Merit **8**; First-Class Merit **20**; Honorary Title **50** only for independent new outcomes |
-| Honorary Titles for earlier work | Previously awarded outcomes receive the title only, without another **50** points |
-| Shared contributions | One event has one award pool. Contribution shares total **100%**, with deterministic rounding |
-| Weekly caps | Apply each bot's same-grade cap in the original week. A capped share records **0**; it is not redistributed, downgraded or carried forward |
-| Ranks | **Ten ordinary ranks**, plus the separate **0–1 Marshal** appointment |
-| Approval and recording | Approval binds an exact proposal. Replaying it cannot award points or confer a rank twice |
+| **Human Owner: you** | Sets business goals, adopts rules and gives final approval for awards, promotions and special appointments |
+| **Commander** | Collects original reports and records formal ledger changes under valid approval |
+| **Merit Officer** | Reviews and reconciles independently, then prepares reports; own or shared-conflict cases go to the human |
+| **Business bots** | Deliver work, report contributions and provide evidence within their existing roles |
 
-The release includes a complete Skill, rules, **nine reusable templates**, and optional Python helpers for calculations and the fictional exercise. The two language packs implement the same **0.2.0 rules**.
+**Marshal is a separate special appointment.** The human may appoint the Commander to the team's single Marshal seat. It is recorded separately from the job role and ordinary rank, adds no points, preserves ordinary time at rank and grants no self-approval authority.
 
-## Start with one language pack
+<details>
+<summary>Expand the roles, workflow and document architecture</summary>
 
-- [English Skill](skills/en/situk-mars/SKILL.md)
-- [简体中文 Skill](skills/zh-CN/situk-mars/SKILL.md)
-- [Download the existing v0.2.0 release](https://github.com/situker/situk-mars/releases/tag/v0.2.0)
+![situk-MARS architecture](docs/assets/architecture.en.svg)
 
-The packs share the same Skill ID, `situk-mars`. Choose one per environment.
+[Read the complete architecture](docs/architecture.md)
 
-Give the complete chosen Skill folder to GrokBot and begin with `SKILL.md`. Set the Human Owner, business goal, authorized data directory, merit start date and existing role bindings. Run a fictional exercise before applying the workflow to your team.
+</details>
 
-## Try it locally
+## Rules that keep rewards accountable
 
-Python **3.11+** and its standard library are sufficient. The exercise needs no network, account, API key or dependency installation.
+| Rule | Default behavior |
+|---|---|
+| Five grades | Commendation 1; Third-Class Merit 3; Second-Class Merit 8; First-Class Merit 20; Honorary Title 50 for an independent new outcome. Previously rewarded work receives the title only |
+| One event, one pool | Collaborators share one pool according to evidence, with fixed rules for rounding |
+| Individual weekly caps | 2 Commendations, 2 Third-Class Merits, 1 Second-Class Merit and 1 First-Class Merit. A capped share records 0 and is not redistributed, downgraded or deferred |
+| Original-week attribution | Use the week of first qualifying delivery, Monday 00:00 to the next Monday 00:00 in Asia/Singapore |
+| Ten ordinary ranks | Private to Lieutenant Colonel; points, complete weeks at the current rank and additional conditions create candidates. Promotions require separate approval |
+| Approval and recording | Only approved and recorded points enter formal totals; replaying a decision creates no duplicate reward |
 
-```bash
-git clone https://github.com/situker/situk-mars.git
-cd situk-mars
-python3 -B skills/en/situk-mars/scripts/simulate.py --output .local/demo-en
-python3 -B -m unittest discover -s skills/en/situk-mars/tests -p test_merit_engine.py -v
-```
+See the [full rules](skills/en/situk-mars/references/rules.md) for prerequisites, conflicts and corrections, and [SKILL.md](skills/en/situk-mars/SKILL.md) for the operating workflow. Both language packs use the Skill ID `situk-mars`; choose one per environment.
 
-On Windows, use `python` if that is your Python 3 command. Leave the final output directory uncreated, even as an empty folder: the exercise refuses to overwrite an existing directory. Keep runtime files outside the Skill source folder.
+## Adopt it for your team after the exercise
 
-The English pack produces English documents by default. Use the Chinese pack for Chinese output, or select `--lang en` / `--lang zh-CN`. Machine-readable rank keys remain Chinese for compatibility; English display labels are mapped separately.
+Then set the Human Owner, business goal, authorized data directory, merit start date and existing role bindings. A human covers missing responsibilities while a separate staffing proposal is considered. Role observations prioritize existing people and assets.
 
-## What the fictional example demonstrates
+The current release supports a **GrokBot document workflow** and local calculation. Live renaming, bot creation, installing into other bots, platform permission enforcement and routine configuration require their own integration and authorization; this release does not implement them automatically.
 
-| Fictional bot | Recorded points | Result |
-|---|---:|---|
-| Example Writer | **4.80** | Becomes Private First Class after a separate simulated promotion approval |
-| Example Builder | **9.20** | Remains Private; eligibility alone does not confer a rank |
-| Example Merit Officer | **0.00** | An approved but unrecorded **1-point** item stays outside formal totals |
-| Example Commander | **0.00** | The Marshal appointment adds no points and preserves the ordinary-rank clock |
+Reviewers must inspect real evidence and retain the source of human decisions. The helpers do not authenticate people or provide a persistent production ledger service. Complex corrections, revocations, discipline, exceptional promotions and Marshal replacement use human-reviewed templates. Ranks are fictional management titles, without real military status, employee compensation or cash rewards.
 
-A shared event divides one **3-point** pool into **1.80** and **1.20**. The writer's third same-grade award records **0** after the weekly cap. Missing adoption evidence stays pending. Replaying an approved decision creates no duplicate reward or promotion.
+## Validation and further reading
 
-Both language packs passed the same **62 rule tests**. The original rules also passed **three local fictional runs**, and GrokBot separately ran the same **62 cases** and exercise. The published v0.2.0 workflow passed **four CI combinations**: Linux and Windows, each with Python **3.11** and **3.13**. These are checks of rule behavior and compatibility, not customer results or production bot acceptance. See [validation details](docs/validation.md) and [Actions](https://github.com/situker/situk-mars/actions).
+Both packs passed the same **62 rule tests**. The workflow also passed four CI combinations: Linux and Windows, each with Python 3.11 and 3.13. These checks cover rules and fictional workflows, not customer outcomes.
 
-## Current scope
-
-MARS currently runs as a document workflow with local helpers. Creating roles, installing Skills into bots, renaming live profiles, enforcing platform permissions and scheduling routines require separate implementation. A proposed rank suffix is a target name, not a completed profile change.
-
-The helpers calculate deterministic results; people still need to verify real-world evidence and provide traceable human approval. They do not authenticate people or supply a persistent production ledger service. Complex corrections, revocations, disciplinary action, exceptional promotion and Marshal replacement use manual proposals and decisions in this release.
-
-Ranks and medals are management labels within the bot team. They grant no platform permissions or cash rewards.
+[Validation](docs/validation.md) · [GitHub Actions](https://github.com/situker/situk-mars/actions) · [Introduction](docs/introduction.md) · [All exercise samples](docs/examples/README.md) · [Release and checksums](https://github.com/situker/situk-mars/releases/tag/v0.2.0)
 
 ## About the author
 
